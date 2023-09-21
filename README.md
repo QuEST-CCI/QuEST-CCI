@@ -3,13 +3,14 @@
 </p>
 
 
-## Center for Quantum Electrodynamics for Selective Transformations ("NSF QuEST CCI")
+## Center for Quantum Electrodynamics for Selective Transformations (QuEST)
 
 <img src="admin_images/questdiagram2.jpg" align="right" width="250"/>
 
-### Administration
+### Director of Center
 Name:  Todd Krauss\
-Email: todd.krauss@rochester.edu
+Email: todd.krauss@rochester.edu\
+Center Website: https://www.rochester.edu/quest/index.html
 
 ### Grant Information
 All work herein was supported by the National Science Foundation “Center forQuantum Electrodynamics forSelective Transformations (QuEST)” under Grant CHE-2124398.
