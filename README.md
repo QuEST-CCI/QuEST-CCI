@@ -1,6 +1,6 @@
 ## Center for Quantum Electrodynamics for Selective Transformations ("NSF QuEST CCI")
 
-<img src="admin_images/questdiagram2.jpg" align="center" width="200"/>
+<img src="admin_images/questdiagram2.jpg" align="right" width="200"/>
 
 ### Administration
 Name:  Todd Krauss\
