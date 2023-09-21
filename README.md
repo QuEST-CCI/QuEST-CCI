@@ -1,4 +1,4 @@
-<p style="text-align: center;">
+<p align="center">
     <img src="admin_images/quest.jpg" align="center" width="250"/>
 </p>
 
