@@ -1,8 +1,7 @@
 ## Center for Quantum Electrodynamics for Selective Transformations ("NSF QuEST CCI")
 
-#
-![Drag Racing](admin_images/questdiagram2.jpg)
-#
+<img src="admin_images/questdiagram2.jpg" alt="drawing" width="200"/>
+
 ### Administration
 Name:  Todd Krauss\
 Email: todd.krauss@rochester.edu
