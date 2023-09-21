@@ -1,3 +1,5 @@
+<img src="admin_images/quest.jpg" align="top" width="250"/>
+
 ## Center for Quantum Electrodynamics for Selective Transformations ("NSF QuEST CCI")
 
 <img src="admin_images/questdiagram2.jpg" align="right" width="250"/>
