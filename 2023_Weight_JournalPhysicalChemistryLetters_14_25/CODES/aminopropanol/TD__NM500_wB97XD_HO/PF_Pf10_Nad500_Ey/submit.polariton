@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH -p exciton -A exciton
+#SBATCH -J PF
+#SBATCH -o output.slurm
+#SBATCH -t 1-00:00:00
+#SBATCH -N 1
+#SBATCH --ntasks-per-node=4
+#SBATCH --mem 10GB
+
+for j in {0..500..5}; do
+    eta=$( bc -l <<< $j*0.001 )
+    #echo "eta = $eta"
+    python3 PF.py $eta
+done
+

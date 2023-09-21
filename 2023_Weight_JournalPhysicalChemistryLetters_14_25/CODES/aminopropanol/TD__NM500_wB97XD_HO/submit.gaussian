@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH -p exciton -A exciton
+#SBATCH -J Formaldehyde
+#SBATCH -o output.slurm
+#SBATCH -t 1:00:00
+#SBATCH -N 1
+#SBATCH --ntasks-per-node=12
+#SBATCH --mem 30GB
+
+module load gaussian
+
+g16 < geometry.com > geometry.out
+formchk geometry.chk
+
