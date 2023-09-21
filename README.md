@@ -11,11 +11,11 @@ All work herein was supported by the National Science Foundation “Center forQu
 
 ### Publications
 
-1. Weight et al., . Phys. Chem. Lett. 2023, 14, 25, 5901–5913
+1. Weight et al., . Phys. Chem. Lett., 2023, 14, 25, 5901–5913
     - Braden M. Weight -- bweight@ur.rochester.edu
     - Pengfei Huo -- pengfei.huo@rochester.edu
 
-1. Koessler et al., J. Chem. Phys. 157, 064101 (2022)
+1. Koessler et al., J. Chem. Phys., 157, 064101 (2022)
     - Eric Koessler -- ekoessle@ur.rochester.edu
     - Pengfei Huo -- pengfei.huo@rochester.edu
 
