@@ -1,0 +1,7 @@
+ Read checkpoint file geometry.chk type G16
+ Write formatted file geometry.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Out-of-memory error in routine WrCIDn-1 (IEnd=    1502671041 MxCore=     104854258)
+ Use %mem=1434MW to provide the minimum amount of memory required to complete this step.
+ Error termination via Lnk1e at Fri Oct  8 06:16:46 2021.

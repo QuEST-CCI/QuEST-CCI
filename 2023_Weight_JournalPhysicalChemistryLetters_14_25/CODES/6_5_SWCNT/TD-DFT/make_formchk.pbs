@@ -1,0 +1,16 @@
+#!/bin/bash
+#PBS -q default
+#PBS -W group_list=x-ccast-prj-kilina
+#PBS -N mkfrmchk
+#PBS -oe
+#PBS -l select=1:ncpus=20:mem=150GB
+#PBS -l walltime=167:59:59
+#PBS -m abe
+##PBS -M @ndsu.edu
+
+cd $PBS_O_WORKDIR
+
+# Loading Gaussian w/ LINDA
+module load gaussian   #/16.b.01-LINDA-pgi
+
+formchk geometry.chk

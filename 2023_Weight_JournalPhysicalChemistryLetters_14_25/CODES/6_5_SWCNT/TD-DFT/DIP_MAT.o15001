@@ -1,0 +1,308 @@
+Starting work on transition dipoles.
+ Multiwfn -- A Multifunctional Wavefunction Analyzer
+ Version 3.7, release date: 2020-Aug-14
+ Project leader: Tian Lu (Beijing Kein Research Center for Natural Sciences)
+ Below paper ***MUST BE CITED*** if Multiwfn is utilized in your work:
+          Tian Lu, Feiwu Chen, J. Comput. Chem., 33, 580-592 (2012)
+ See "How to cite Multiwfn.pdf" in Multiwfn binary package for more information
+ Multiwfn official website: http://sobereva.com/multiwfn
+ Multiwfn English forum: http://sobereva.com/wfnbbs
+ Multiwfn Chinese forum: http://bbs.keinsci.com/wfn
+
+ ( The number of threads:   4   Current date: 2021-10-08   Time: 10:42:47 )
+
+ Warning: You should set "KMP_STACKSIZE" environment variable as mentioned in Section 2.1.2 of Multiwfn manual!
+ 
+ Input file path, for example E:\Fate\Rin_Tohsaka.wfn
+ (Supported: .mwfn/wfn/wfx/fch/molden/31/chg/pdb/xyz/mol/mol2/cub/grd, etc.)
+ Hint: Press ENTER button directly can select file in a GUI window. To reload the file last time used, simply input the letter "o". Input such as ?miku.fch can open the miku.fch in the same folder as the file last time used.
+ Please wait...
+ Loading various information of the wavefunction
+ The highest angular moment basis functions is P
+ Loading basis set definition...
+ Loading orbitals...
+ Converting basis function information to GTF information...
+ Generating density matrix based on SCF orbitals...
+ Generating overlap matrix...
+ 
+ Total/Alpha/Beta electrons:   6574.0000   3287.0000   3287.0000
+ Net charge:     0.00000      Expected multiplicity:    1
+ Atoms:   1114,  Basis functions:   5482,  GTFs:  16446
+ Total energy:  -41099.854276084763 Hartree,   Virial ratio:  2.01820169
+ This is a restricted single-determinant wavefunction
+ Orbitals from 1 to  3287 are occupied
+ Title line of this file: TitleMe
+
+ Loaded geometry.fchk successfully!
+ Formula: H22 C1092 
+ Molecule weight:     13137.89830
+ 
+ "q": Exit program gracefully          "r": Load a new file
+                    ************ Main function menu ************
+ 0 Show molecular structure and view orbitals
+ 1 Output all properties at a point
+ 2 Topology analysis
+ 3 Output and plot specific property in a line
+ 4 Output and plot specific property in a plane
+ 5 Output and plot specific property within a spatial region (calc. grid data)
+ 6 Check & modify wavefunction
+ 7 Population analysis and atomic charges
+ 8 Orbital composition analysis
+ 9 Bond order analysis
+ 10 Plot total DOS, partial DOS, OPDOS, local DOS and photoelectron spectrum
+ 11 Plot IR/Raman/UV-Vis/ECD/VCD/ROA/NMR spectrum
+ 12 Quantitative analysis of molecular surface
+ 13 Process grid data (No grid data is presented currently)
+ 14 Adaptive natural density partitioning (AdNDP) analysis
+ 15 Fuzzy atomic space analysis
+ 16 Charge decomposition analysis (CDA) and plot orbital interaction diagram
+ 17 Basin analysis                    18 Electron excitation analysis
+ 19 Orbital localization analysis     20 Visual study of weak interaction
+ 21 Energy decomposition analysis
+ 100 Other functions (Part 1)         200 Other functions (Part 2)
+ 300 Other functions (Part 3)
+ 
+           ============ Electronic excitation analyses ============ 
+ -1 Check, modify and export configuration coefficients of an excitation
+ 0 Return
+ 1 Analyze and visualize hole-electron distribution, transition density, and transition electric/magnetic dipole moment density
+ 2 Plot atom/fragment transition matrix of various kinds as heat map
+ 3 Analyze charge-transfer based on density difference grid data (JCTC,7,2498)
+ 4 Calculate delta_r index to measure charge-transfer length (JCTC,9,3118)
+ 5 Calculate transition electric dipole moments between all states and electric dipole moment of each state
+ 6 Generate natural transition orbitals (NTOs)
+ 7 Calculate ghost-hunter index (JCC,38,2151)
+ 8 Calculate interfragment charge transfer amount via IFCT method
+ 9 Generate and export transition density matrix
+ 10 Decompose transition dipole moment as molecular orbital pair contributions
+ 11 Decompose transition dipole moment as basis function and atom contributions
+ 12 Calculate Mulliken atomic transition charges
+ 13 Generate natural orbitals of specific excited states
+ 14 Calculate lambda index to characterize electron excitation (JCP,128,044118)
+ 15 Print major MO transitions in all excited states
+ Please input path of Gaussian/ORCA output file or plain text file, electron excitation information will be loaded from this file
+ e.g. C:\lovelive\sunshine\yosoro.out
+ Hint: If pressing ENTER button directly, the file with identical name as input file but with .out or .log suffix will be loaded
+ This file is recognized as a Gaussian output file
+ There are   20 excited states, loading basic information...
+ 
+ Loading configuration coefficients...
+ Summary of excited states:
+ Exc.state#     Exc.energy(eV)     Multi.   MO pairs    Normalization
+       1           1.84700           1        86875        0.499998
+       2           1.88310           1       117755        0.499996
+       3           1.94030           1       143547        0.499999
+       4           1.95370           1       691504        0.500000
+       5           1.95380           1       681551        0.500005
+       6           1.97330           1       729360        0.500002
+       7           1.99050           1       817216        0.499995
+       8           1.99090           1       815437        0.500007
+       9           2.01460           1       177626        0.499994
+      10           2.04960           1       910838        0.499994
+      11           2.04970           1       908261        0.500002
+      12           2.09960           1       397569        0.499988
+      13           2.11070           1      1159219        0.500003
+      14           2.12740           1       992353        0.499999
+      15           2.13110           1      1136150        0.500000
+      16           2.19330           1       282022        0.499996
+      17           2.21540           1      1287454        0.500001
+      18           2.22090           1      1091638        0.500001
+      19           2.24670           1      1339990        0.499998
+      20           2.28760           1       332702        0.499994
+ 
+ Please select a task:
+ 1 Output transition dipole moments to screen
+ 2 Output transition dipole moments to transdipmom.txt in current folder
+ 3 Generate input file of SOS module of Multiwfn as SOS.txt in current folder
+ 4 Output electric dipole moment of each excited state to dipmom.txt in current folder
+ 
+ Stage 1: Generating dipole moment integral matrix...
+ Stage 2: Calculating dipole moment integrals between all MOs...
+ (Stage 2 took up wall clock time      1220 s)
+ Stage 3: Calculating transition dipole moment between excited states...
+ Progress: [##------------------------------------------------]    5.00 %     - Progress: [#####---------------------------------------------]   10.00 %     \ Progress: [#######-------------------------------------------]   15.00 %     | Progress: [##########----------------------------------------]   20.00 %     / Progress: [############--------------------------------------]   25.00 %     - Progress: [###############-----------------------------------]   30.00 %     \ Progress: [#################---------------------------------]   35.00 %     | Progress: [####################------------------------------]   40.00 %     / Progress: [######################----------------------------]   45.00 %     - Progress: [#########################-------------------------]   50.00 %     \ Progress: [###########################-----------------------]   55.00 %     | Progress: [##############################--------------------]   60.00 %     / Progress: [################################------------------]   65.00 %     - Progress: [###################################---------------]   70.00 %     \ Progress: [#####################################-------------]   75.00 %     | Progress: [########################################----------]   80.00 %     / Progress: [##########################################--------]   85.00 %     - Progress: [#############################################-----]   90.00 %     \ Progress: [###############################################---]   95.00 %     | Progress: [##################################################]  100.00 %     / 
+ (Stage 3 took up wall clock time    -25662 s)
+
+ Done! The result has been outputted to transdipmom.txt in current folder
+ 
+           ============ Electronic excitation analyses ============ 
+ -1 Check, modify and export configuration coefficients of an excitation
+ 0 Return
+ 1 Analyze and visualize hole-electron distribution, transition density, and transition electric/magnetic dipole moment density
+ 2 Plot atom/fragment transition matrix of various kinds as heat map
+ 3 Analyze charge-transfer based on density difference grid data (JCTC,7,2498)
+ 4 Calculate delta_r index to measure charge-transfer length (JCTC,9,3118)
+ 5 Calculate transition electric dipole moments between all states and electric dipole moment of each state
+ 6 Generate natural transition orbitals (NTOs)
+ 7 Calculate ghost-hunter index (JCC,38,2151)
+ 8 Calculate interfragment charge transfer amount via IFCT method
+ 9 Generate and export transition density matrix
+ 10 Decompose transition dipole moment as molecular orbital pair contributions
+ 11 Decompose transition dipole moment as basis function and atom contributions
+ 12 Calculate Mulliken atomic transition charges
+ 13 Generate natural orbitals of specific excited states
+ 14 Calculate lambda index to characterize electron excitation (JCP,128,044118)
+ 15 Print major MO transitions in all excited states
+forrtl: severe (24): end-of-file during read, unit -4, file /proc/1192425/fd/0
+Image              PC                Routine            Line        Source             
+Multiwfn           0000000001DD124B  Unknown               Unknown  Unknown
+Multiwfn           0000000001E032C8  Unknown               Unknown  Unknown
+Multiwfn           000000000089854C  Unknown               Unknown  Unknown
+Multiwfn           0000000000799E74  Unknown               Unknown  Unknown
+Multiwfn           000000000042A622  Unknown               Unknown  Unknown
+libc-2.28.so       00001555549EA6A3  __libc_start_main     Unknown  Unknown
+Multiwfn           000000000042A529  Unknown               Unknown  Unknown
+Starting work on perm. dipoles.
+ Multiwfn -- A Multifunctional Wavefunction Analyzer
+ Version 3.7, release date: 2020-Aug-14
+ Project leader: Tian Lu (Beijing Kein Research Center for Natural Sciences)
+ Below paper ***MUST BE CITED*** if Multiwfn is utilized in your work:
+          Tian Lu, Feiwu Chen, J. Comput. Chem., 33, 580-592 (2012)
+ See "How to cite Multiwfn.pdf" in Multiwfn binary package for more information
+ Multiwfn official website: http://sobereva.com/multiwfn
+ Multiwfn English forum: http://sobereva.com/wfnbbs
+ Multiwfn Chinese forum: http://bbs.keinsci.com/wfn
+
+ ( The number of threads:   4   Current date: 2021-10-09   Time: 03:56:21 )
+
+ Warning: You should set "KMP_STACKSIZE" environment variable as mentioned in Section 2.1.2 of Multiwfn manual!
+ 
+ Input file path, for example E:\Tiger_Mask_W\Miss_X.wfn
+ (Supported: .mwfn/wfn/wfx/fch/molden/31/chg/pdb/xyz/mol/mol2/cub/grd, etc.)
+ Hint: Press ENTER button directly can select file in a GUI window. To reload the file last time used, simply input the letter "o". Input such as ?miku.fch can open the miku.fch in the same folder as the file last time used.
+ Please wait...
+ Loading various information of the wavefunction
+ The highest angular moment basis functions is P
+ Loading basis set definition...
+ Loading orbitals...
+ Converting basis function information to GTF information...
+ Generating density matrix based on SCF orbitals...
+ Generating overlap matrix...
+ 
+ Total/Alpha/Beta electrons:   6574.0000   3287.0000   3287.0000
+ Net charge:     0.00000      Expected multiplicity:    1
+ Atoms:   1114,  Basis functions:   5482,  GTFs:  16446
+ Total energy:  -41099.854276084763 Hartree,   Virial ratio:  2.01820169
+ This is a restricted single-determinant wavefunction
+ Orbitals from 1 to  3287 are occupied
+ Title line of this file: TitleMe
+
+ Loaded geometry.fchk successfully!
+ Formula: H22 C1092 
+ Molecule weight:     13137.89830
+ 
+ "q": Exit program gracefully          "r": Load a new file
+                    ************ Main function menu ************
+ 0 Show molecular structure and view orbitals
+ 1 Output all properties at a point
+ 2 Topology analysis
+ 3 Output and plot specific property in a line
+ 4 Output and plot specific property in a plane
+ 5 Output and plot specific property within a spatial region (calc. grid data)
+ 6 Check & modify wavefunction
+ 7 Population analysis and atomic charges
+ 8 Orbital composition analysis
+ 9 Bond order analysis
+ 10 Plot total DOS, partial DOS, OPDOS, local DOS and photoelectron spectrum
+ 11 Plot IR/Raman/UV-Vis/ECD/VCD/ROA/NMR spectrum
+ 12 Quantitative analysis of molecular surface
+ 13 Process grid data (No grid data is presented currently)
+ 14 Adaptive natural density partitioning (AdNDP) analysis
+ 15 Fuzzy atomic space analysis
+ 16 Charge decomposition analysis (CDA) and plot orbital interaction diagram
+ 17 Basin analysis                    18 Electron excitation analysis
+ 19 Orbital localization analysis     20 Visual study of weak interaction
+ 21 Energy decomposition analysis
+ 100 Other functions (Part 1)         200 Other functions (Part 2)
+ 300 Other functions (Part 3)
+ 
+           ============ Electronic excitation analyses ============ 
+ -1 Check, modify and export configuration coefficients of an excitation
+ 0 Return
+ 1 Analyze and visualize hole-electron distribution, transition density, and transition electric/magnetic dipole moment density
+ 2 Plot atom/fragment transition matrix of various kinds as heat map
+ 3 Analyze charge-transfer based on density difference grid data (JCTC,7,2498)
+ 4 Calculate delta_r index to measure charge-transfer length (JCTC,9,3118)
+ 5 Calculate transition electric dipole moments between all states and electric dipole moment of each state
+ 6 Generate natural transition orbitals (NTOs)
+ 7 Calculate ghost-hunter index (JCC,38,2151)
+ 8 Calculate interfragment charge transfer amount via IFCT method
+ 9 Generate and export transition density matrix
+ 10 Decompose transition dipole moment as molecular orbital pair contributions
+ 11 Decompose transition dipole moment as basis function and atom contributions
+ 12 Calculate Mulliken atomic transition charges
+ 13 Generate natural orbitals of specific excited states
+ 14 Calculate lambda index to characterize electron excitation (JCP,128,044118)
+ 15 Print major MO transitions in all excited states
+ Please input path of Gaussian/ORCA output file or plain text file, electron excitation information will be loaded from this file
+ e.g. C:\lovelive\sunshine\yosoro.out
+ Hint: If pressing ENTER button directly, the file with identical name as input file but with .out or .log suffix will be loaded
+ This file is recognized as a Gaussian output file
+ There are   20 excited states, loading basic information...
+ 
+ Loading configuration coefficients...
+ Summary of excited states:
+ Exc.state#     Exc.energy(eV)     Multi.   MO pairs    Normalization
+       1           1.84700           1        86875        0.499998
+       2           1.88310           1       117755        0.499996
+       3           1.94030           1       143547        0.499999
+       4           1.95370           1       691504        0.500000
+       5           1.95380           1       681551        0.500005
+       6           1.97330           1       729360        0.500002
+       7           1.99050           1       817216        0.499995
+       8           1.99090           1       815437        0.500007
+       9           2.01460           1       177626        0.499994
+      10           2.04960           1       910838        0.499994
+      11           2.04970           1       908261        0.500002
+      12           2.09960           1       397569        0.499988
+      13           2.11070           1      1159219        0.500003
+      14           2.12740           1       992353        0.499999
+      15           2.13110           1      1136150        0.500000
+      16           2.19330           1       282022        0.499996
+      17           2.21540           1      1287454        0.500001
+      18           2.22090           1      1091638        0.500001
+      19           2.24670           1      1339990        0.499998
+      20           2.28760           1       332702        0.499994
+ 
+ Please select a task:
+ 1 Output transition dipole moments to screen
+ 2 Output transition dipole moments to transdipmom.txt in current folder
+ 3 Generate input file of SOS module of Multiwfn as SOS.txt in current folder
+ 4 Output electric dipole moment of each excited state to dipmom.txt in current folder
+ 
+ Stage 1: Generating dipole moment integral matrix...
+ Stage 2: Calculating dipole moment integrals between all MOs...
+ (Stage 2 took up wall clock time       838 s)
+ Stage 3: Calculating electric dipole moment of all excited states...
+ Progress: [##------------------------------------------------]    5.00 %     - Progress: [#####---------------------------------------------]   10.00 %     \ Progress: [#######-------------------------------------------]   15.00 %     | Progress: [##########----------------------------------------]   20.00 %     / Progress: [############--------------------------------------]   25.00 %     - Progress: [###############-----------------------------------]   30.00 %     \ Progress: [#################---------------------------------]   35.00 %     | Progress: [####################------------------------------]   40.00 %     / Progress: [######################----------------------------]   45.00 %     - Progress: [#########################-------------------------]   50.00 %     \ Progress: [###########################-----------------------]   55.00 %     | Progress: [##############################--------------------]   60.00 %     / Progress: [################################------------------]   65.00 %     - Progress: [###################################---------------]   70.00 %     \ Progress: [#####################################-------------]   75.00 %     | Progress: [########################################----------]   80.00 %     / Progress: [##########################################--------]   85.00 %     - Progress: [#############################################-----]   90.00 %     \ Progress: [###############################################---]   95.00 %     | Progress: [##################################################]  100.00 %     / 
+ (Stage 3 took up wall clock time      7948 s)
+
+ Done! The result has been outputted to dipmom.txt in current folder
+ 
+           ============ Electronic excitation analyses ============ 
+ -1 Check, modify and export configuration coefficients of an excitation
+ 0 Return
+ 1 Analyze and visualize hole-electron distribution, transition density, and transition electric/magnetic dipole moment density
+ 2 Plot atom/fragment transition matrix of various kinds as heat map
+ 3 Analyze charge-transfer based on density difference grid data (JCTC,7,2498)
+ 4 Calculate delta_r index to measure charge-transfer length (JCTC,9,3118)
+ 5 Calculate transition electric dipole moments between all states and electric dipole moment of each state
+ 6 Generate natural transition orbitals (NTOs)
+ 7 Calculate ghost-hunter index (JCC,38,2151)
+ 8 Calculate interfragment charge transfer amount via IFCT method
+ 9 Generate and export transition density matrix
+ 10 Decompose transition dipole moment as molecular orbital pair contributions
+ 11 Decompose transition dipole moment as basis function and atom contributions
+ 12 Calculate Mulliken atomic transition charges
+ 13 Generate natural orbitals of specific excited states
+ 14 Calculate lambda index to characterize electron excitation (JCP,128,044118)
+ 15 Print major MO transitions in all excited states
+forrtl: severe (24): end-of-file during read, unit -4, file /proc/1298860/fd/0
+Image              PC                Routine            Line        Source             
+Multiwfn           0000000001DD124B  Unknown               Unknown  Unknown
+Multiwfn           0000000001E032C8  Unknown               Unknown  Unknown
+Multiwfn           000000000089854C  Unknown               Unknown  Unknown
+Multiwfn           0000000000799E74  Unknown               Unknown  Unknown
+Multiwfn           000000000042A622  Unknown               Unknown  Unknown
+libc-2.28.so       00001555549EA6A3  __libc_start_main     Unknown  Unknown
+Multiwfn           000000000042A529  Unknown               Unknown  Unknown

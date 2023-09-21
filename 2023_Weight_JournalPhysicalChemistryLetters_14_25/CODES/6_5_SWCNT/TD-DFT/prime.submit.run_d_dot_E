@@ -1,0 +1,24 @@
+#!/bin/bash
+#PBS -q default
+#PBS -N d_dot_E
+#PBS -l select=1:mem=10gb:ncpus=1
+#PBS -l walltime=168:00:00
+#PBS -j oe
+#PBS -W group_list=x-ccast-prj-kilina
+
+cd $PBS_O_WORKDIR
+
+for i in {0..250..1}; do # eta * 1000
+	for j in {101..219..2}; do # wc * 100
+		eta=$( bc -l <<< $i*0.001 )
+		wc=$( bc -l <<< $j*0.01 )
+		echo;
+		echo "eta = ${eta}"
+		echo "wc = ${wc} eV"
+		python3 ../../Single/d_dot_E_Braden.py ${eta} ${wc}
+		#python3 plot_polaritons.py ${eta} ${wc}
+	done
+done
+
+
+

@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH -p debug
+#SBATCH -J PF_COMPUTE
+#SBATCH -o output.slurm
+#SBATCH -t 1:00:00
+#SBATCH -N 1
+#SBATCH --ntasks-per-node=8
+#SBATCH --mem 30GB
+
+export OMP_NUM_THREADS=8
+export MKL_NUM_THREADS=8
+
+python3 compute_dipole.py

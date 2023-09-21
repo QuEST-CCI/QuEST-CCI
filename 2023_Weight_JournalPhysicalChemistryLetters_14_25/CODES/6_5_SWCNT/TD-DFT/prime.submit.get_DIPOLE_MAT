@@ -1,0 +1,35 @@
+#!/bin/bash
+#PBS -q default
+#PBS -N DIP_MAT
+#PBS -l select=1:mem=40gb:ncpus=4
+#PBS -l walltime=168:00:00
+#PBS -j oe
+#PBS -W group_list=x-ccast-prj-kilina
+
+cd $PBS_O_WORKDIR
+
+cp ~/Multiwfn_3.7_bin_Linux_noGUI/settings.ini .
+
+echo "Starting work on transition dipoles."
+# Makes permanent dipoles
+~/Multiwfn_3.7_bin_Linux_noGUI/Multiwfn << EOF
+geometry.fchk
+18
+5
+geometry.out
+2
+EOF
+
+echo "Starting work on perm. dipoles."
+# Makes transition dipoles
+~/Multiwfn_3.7_bin_Linux_noGUI/Multiwfn << EOF
+geometry.fchk
+18
+5
+geometry.out
+4
+EOF
+
+
+
+
