@@ -1,0 +1,73 @@
+$molecule
+0 1
+ C                  0.78808821    1.24068913    0.02492945
+ C                  2.17658059    1.20482783    0.01961732
+ C                  2.84604848   -0.01987894   -0.00618268
+ C                  0.06874473    0.04470619    0.01965705
+ H                  0.27342680    2.19328085    0.03465240
+ H                  2.76334949    2.11354885    0.03637404
+ H                 -1.01469187    0.05821664    0.02642497
+ N                  4.30685693    0.04595834   -0.03962592
+ O                  4.93785288   -0.87773037   -0.59362170
+ O                  4.84651823    1.05363205    0.47829467
+ C                  0.74008238   -1.17504363    0.01238440
+ H                  0.18852059   -2.10639187    0.02395406
+ C                  2.13307197   -1.21959994   -0.00494717
+ Br                 2.92645518   -2.95940256    0.03206369
+$end
+
+$rem
+   !SCF_GUESS         read
+   !SKIP_CIS_RPA      TRUE
+   METHOD             wB97XD
+   RPA                TRUE
+   BASIS              6-311+G*
+   CIS_N_ROOTS        100
+   CIS_SINGLETS       TRUE
+   CIS_TRIPLETS       FALSE
+   MAKE_CUBE_FILES    TRUE
+   PLOTS              TRUE
+   STS_MOM            TRUE
+   SYM_IGNORE         TRUE
+   SYMMETRY           FALSE
+   NTO_PAIRS          1
+$end
+
+$plots
+   grid_points                    75 75 75
+   total_density                  0-100
+   transition_density             1-100
+   natural_transition_orbital     1-100
+$end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+#!/bin/bash
+#SBATCH -p action
+#SBATCH -J PF
+#SBATCH -o output.slurm
+#SBATCH -t 1-00:00:00
+#SBATCH -N 1
+#SBATCH --ntasks-per-node=1
+#SBATCH --mem 2GB
+
+export OMP_NUM_THREADS=1
+export MKL_NUM_THREADS=1
+
+
+for WC in {1.8,10.0}; do
+#for w in {0..2000..100}; do
+    #WC=$( bc -l <<< $w*0.01 )
+    echo "$1 ${WC}"
+    python3 Pauli-Fierz_DdotE.py $1 ${WC}
+done

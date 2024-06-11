@@ -1,0 +1,46 @@
+You are running Q-Chem version: 6.0.2
+withsave === 1
+
+#
+# job setting
+#
+local host:  bhd0015
+current dir: /gpfs/fs2/scratch/bweight/huo_group/polaritons/ground_state/bromination_of_nitrobenzene/positive_intermediates/mBr/QCHEM/TEST_CONVERGENCE
+input file:  QCHEM.in
+output file: QCHEM.out
+nprocs     : 0
+nthreads   : 24
+#
+# qchem installation setting
+#
+QC:          /gpfs/fs2/scratch/phuo_lab/Program/Qchem
+QCAUX:       /gpfs/fs2/scratch/phuo_lab/Program/Qchem/qcaux
+QCPROG:      /gpfs/fs2/scratch/phuo_lab/Program/Qchem/exe/qcprog.exe_s
+QCPROG_S:    /gpfs/fs2/scratch/phuo_lab/Program/Qchem/exe/qcprog.exe_s
+PARALLEL:    -DSERIAL
+QCMPI:       seq
+#
+# qchem directory setting
+#
+qcrun:       save
+QCSCRATCH:   /local_scratch/23679571/QCSCRATCH
+QCLOCALSCR:  /local_scratch/23679571/QCLOCALSCR
+QCTMPDIR:    /local_scratch/23679571/QCLOCALSCR
+QCFILEPREF:  /local_scratch/23679571/QCLOCALSCR/save
+QCSAVEDIR:   /local_scratch/23679571/QCSCRATCH/save
+workdirs:    /local_scratch/23679571/QCLOCALSCR/save
+workdir0:    /local_scratch/23679571/QCLOCALSCR/save
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           seq
+QCMPIRUN:        
+QCMACHINEFILE:   /local_scratch/23679571/QCLOCALSCR/save/hostfile
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+copy savedir ...

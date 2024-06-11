@@ -1,0 +1,19 @@
+#!/bin/bash
+#SBATCH -p exciton -A exciton
+#SBATCH -J PF
+#SBATCH -o output.slurm
+#SBATCH -t 1-00:00:00
+#SBATCH -N 1
+#SBATCH --ntasks-per-node=1
+#SBATCH --mem 1GB
+
+export OMP_NUM_THREADS=1
+export MKL_NUM_THREADS=1
+
+A0=$1
+WC=$2
+THETA=$3
+PHI=$4
+
+echo "A0 = $1 WC = $WC THETA = ${THETA} PHI = ${PHI}"
+python3 Pauli-Fierz_DdotE.py ${A0} ${WC} ${THETA} ${PHI}

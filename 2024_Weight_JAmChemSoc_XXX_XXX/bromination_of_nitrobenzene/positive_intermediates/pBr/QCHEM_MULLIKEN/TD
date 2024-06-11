@@ -1,0 +1,4 @@
+slurmstepd: error: task/cgroup: unable to add task[pid=7412] to memory cg '(null)'
+rm: cannot remove ‘/local_scratch/17180077’: Permission denied
+	There are 50 TDDFT/TDA roots.
+	There are 50 TDDFT/RPA roots.

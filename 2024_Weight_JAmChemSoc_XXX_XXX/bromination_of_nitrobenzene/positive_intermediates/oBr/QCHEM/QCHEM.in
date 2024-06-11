@@ -1,0 +1,76 @@
+$molecule
+1 1
+ C                  0.51932475    1.23303451   -0.03194925
+ C                  1.94454413    1.26916358   -0.03672882
+ C                  2.62037793    0.09283428   -0.02499003
+ C                 -0.19603352    0.03013062    0.00102732
+ H                 -0.02069420    2.17423764   -0.04336646
+ H                  2.48281698    2.20891057   -0.03611879
+ H                 -1.27770137    0.03990295    0.01166953
+ N                  4.09213475    0.09594076    0.03662979
+ O                  4.63930696   -1.02169275    0.14459220
+ O                  4.66489883    1.19839699   -0.02327545
+ C                  0.49428518   -1.16712649    0.02099746
+ H                 -0.03251071   -2.11492669    0.05447935
+ C                  1.96291176   -1.21653219   -0.02111314
+ H                  2.44359113   -1.96306433    0.61513886
+ Br                 2.17304025   -1.94912156   -1.90618750
+$end
+
+$rem
+   !SCF_GUESS         read
+   !SKIP_CIS_RPA      TRUE
+   METHOD             wB97XD
+   RPA                TRUE
+   BASIS              6-311+G*
+   CIS_N_ROOTS        100
+   CIS_SINGLETS       TRUE
+   CIS_TRIPLETS       FALSE
+   MAKE_CUBE_FILES    TRUE
+   PLOTS              TRUE
+   STS_MOM            TRUE
+   SYM_IGNORE         TRUE
+   SYMMETRY           FALSE
+   NTO_PAIRS          1
+   ! NBO                2
+$end
+
+$plots
+   grid_points                    75 75 75
+   total_density                  0-100
+   transition_density             1-100
+   natural_transition_orbital     1-100
+$end
+
+   ! natural_bond_orbital           1-5 ! How many here ? Is it physical to mix these ?
+   ! nbo_state                      0-10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

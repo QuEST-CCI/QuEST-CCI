@@ -1,0 +1,1338 @@
+
+Running Job 1 of 1 QCHEM.in
+qchem QCHEM.in_25399.0 /local_scratch/24465579/QCLOCALSCR/save/ 0
+/gpfs/fs2/scratch/phuo_lab/Program/Qchem/exe/qcprog.exe_s QCHEM.in_25399.0 /local_scratch/24465579/QCLOCALSCR/save/
+                  Welcome to Q-Chem
+     A Quantum Leap Into The Future Of Chemistry
+
+
+ Q-Chem 6.0, Q-Chem, Inc., Pleasanton, CA (2022)
+
+ License issued to: SRG Frank Huo, University of Rochester
+
+ E. Epifanovsky,  A. T. B. Gilbert,  Xintian Feng,  Joonho Lee,  Yuezhi Mao,  
+ N. Mardirossian,  P. Pokhilko,  A. White,  M. Wormit,  M. P. Coons,  
+ A. L. Dempwolff,  Zhengting Gan,  D. Hait,  P. R. Horn,  L. D. Jacobson,  
+ I. Kaliman,  J. Kussmann,  A. W. Lange,  Ka Un Lao,  D. S. Levine,  Jie Liu,  
+ S. C. McKenzie,  A. F. Morrison,  K. Nanda,  F. Plasser,  D. R. Rehn,  
+ M. L. Vidal,  Zhi-Qiang You,  Ying Zhu,  B. Alam,  B. Albrecht,  
+ A. Aldossary,  E. Alguire,  J. H. Andersen,  V. Athavale,  D. Barton,  
+ K. Begam,  A. Behn,  N. Bellonzi,  Y. A. Bernard,  E. J. Berquist,  
+ H. Burton,  A. Carreras,  K. Carter-Fenk,  Romit Chakraborty,  
+ Chandrima Chakravarty,  Junhan Chen,  A. D. Chien,  K. D. Closser,  
+ V. Cofer-Shabica,  L. Cunha,  S. Dasgupta,  Jia Deng,  M. de Wergifosse,  
+ M. Diedenhofen,  Hainam Do,  S. Ehlert,  Po-Tung Fang,  S. Fatehi,  
+ Qingguo Feng,  T. Friedhoff,  B. Ganoe,  J. Gayvert,  Qinghui Ge,  
+ G. Gidofalvi,  M. Goldey,  J. Gomes,  C. Gonzalez-Espinoza,  S. Gulania,  
+ A. Gunina,  J. A. Gyamfi,  M. W. D. Hanson-Heine,  P. H. P. Harbach,  
+ A. W. Hauser,  M. F. Herbst,  M. Hernandez Vera,  M. Hodecker,  
+ Z. C. Holden,  S. Houck,  Xunkun Huang,  Kerwin Hui,  B. C. Huynh,  
+ K. Ikeda,  M. Ivanov,  Hyunjun Ji,  Zuxin Jin,  Hanjie Jiang,  B. Kaduk,  
+ S. Kaehler,  R. Kang,  K. Khistyaev,  Jaehoon Kim,  Yongbin Kim,  
+ P. Klunzinger,  Z. Koczor-Benda,  Joong Hoon Koh,  D. Kosenkov,  
+ Saikiran Kotaru,  L. Koulias,  T. Kowalczyk,  C. M. Krauter,  K. Kue,  
+ A. Kunitsa,  T. Kus,  A. Landau,  K. V. Lawler,  D. Lefrancois,  S. Lehtola,  
+ Rain Li,  Shaozhi Li,  Yi-Pei Li,  Jiashu Liang,  M. Liebenthal,  
+ Hung-Hsuan Lin,  You-Sheng Lin,  Fenglai Liu,  Kuan-Yu Liu,  
+ M. Loipersberger,  A. Luenser,  C. Malbon,  A. Manjanath,  P. Manohar,  
+ E. Mansoor,  S. F. Manzer,  Shan-Ping Mao,  A. V. Marenich,  T. Markovich,  
+ S. Mason,  F. Matz,  S. A. Maurer,  P. F. McLaughlin,  M. F. S. J. Menger,  
+ J.-M. Mewes,  S. A. Mewes,  P. Morgante,  Mohammad Mostafanejad,  
+ J. W. Mullinax,  K. J. Oosterbaan,  G. Paran,  V. Parravicini,  
+ Alexander C. Paul,  Suranjan K. Paul,  F. Pavosevic,  Zheng Pei,  S. Prager,  
+ E. I. Proynov,  E. Ramos,  B. Rana,  A. E. Rask,  A. Rettig,  R. M. Richard,  
+ F. Rob,  E. Rossomme,  T. Scheele,  M. Scheurer,  M. Schneider,  
+ P. E. Schneider,  N. Sergueev,  S. M. Sharada,  Hengyuan Shen,  
+ W. Skomorowski,  D. W. Small,  C. J. Stein,  Yingli Su,  Yu-Chuan Su,  
+ E. J. Sundstrom,  Zhen Tao,  J. Thirman,  Hung-Yi Tsai,  T. Tsuchimochi,  
+ N. M. Tubman,  C. Utku,  S. P. Veccham,  O. Vydrov,  J. Wenzel,  
+ Jonathan Wong,  J. Witte,  A. Yamada,  Chou-Hsun Yang,  Kun Yao,  
+ S. Yeganeh,  S. R. Yost,  A. Zech,  F. Zeller,  Igor Ying Zhang,  
+ Xing Zhang,  Yu Zhang,  D. Zuev,  A. Aspuru-Guzik,  A. T. Bell,  
+ N. A. Besley,  K. B. Bravaya,  B. R. Brooks,  D. Casanova,  Jeng-Da Chai,  
+ Hsing-Ta Chen,  S. Coriani,  C. J. Cramer,  A. E. DePrince, III,  
+ R. A. DiStasio Jr.,  A. Dreuw,  B. D. Dunietz,  T. R. Furlani,  
+ W. A. Goddard III,  S. Grimme,  S. Hammes-Schiffer,  T. Head-Gordon,  
+ W. J. Hehre,  Chao-Ping Hsu,  T.-C. Jagau,  Yousung Jung,  A. Klamt,  
+ Jing Kong,  D. S. Lambrecht,  Xiangyuan Li,  WanZhen Liang,  N. J. Mayhall,  
+ C. W. McCurdy,  J. B. Neaton,  T. Neudecker,  C. Ochsenfeld,  
+ J. A. Parkhill,  R. Peverati,  V. A. Rassolov,  Haisheng Ren,  Yihan Shao,  
+ L. V. Slipchenko,  R. P. Steele,  J. E. Subotnik,  A. J. W. Thom,  
+ A. Tkatchenko,  D. G. Truhlar,  T. Van Voorhis,  Fan Wang,  
+ T. A. Wesolowski,  K. B. Whaley,  H. L. Woodcock III,  P. M. Zimmerman,  
+ S. Faraji,  P. M. W. Gill,  M. Head-Gordon,  J. M. Herbert,  A. I. Krylov
+
+ Contributors to earlier versions of Q-Chem not listed above: 
+ R. D. Adamson,  B. Austin,  R. Baer,  J. Baker,  G. J. O. Beran,  
+ K. Brandhorst,  S. T. Brown,  E. F. C. Byrd,  Arup K. Chakraborty,  
+ G. K. L. Chan,  Chun-Min Chang,  Yunqing Chen,  C.-L. Cheng,  
+ Siu Hung Chien,  D. M. Chipman,  D. L. Crittenden,  H. Dachsel,  
+ R. J. Doerksen,  A. D. Dutoi,  R. G. Edgar,  J. Fosso-Tande,  
+ L. Fusti-Molnar,  D. Ghosh,  A. Ghysels,  A. Golubeva-Zadorozhnaya,  
+ J. Gonthier,  M. S. Gordon,  S. R. Gwaltney,  G. Hawkins,  J. E. Herr,  
+ A. Heyden,  S. Hirata,  E. G. Hohenstein,  G. Kedziora,  F. J. Keil,  
+ C. Kelley,  Jihan Kim,  R. A. King,  R. Z. Khaliullin,  P. P. Korambath,  
+ W. Kurlancheek,  A. Laurent,  A. M. Lee,  M. S. Lee,  S. V. Levchenko,  
+ Ching Yeh Lin,  D. Liotard,  E. Livshits,  R. C. Lochan,  I. Lotan,  
+ L. A. Martinez-Martinez,  P. E. Maslen,  N. Nair,  D. P. O'Neill,  
+ D. Neuhauser,  E. Neuscamman,  C. M. Oana,  R. Olivares-Amaya,  R. Olson,  
+ T. M. Perrine,  B. Peters,  P. A. Pieniazek,  A. Prociuk,  Y. M. Rhee,  
+ J. Ritchie,  M. A. Rohrdanz,  E. Rosta,  N. J. Russ,  H. F. Schaefer III,  
+ M. W. Schmidt,  N. E. Schultz,  S. Sharma,  N. Shenvi,  C. D. Sherrill,  
+ A. C. Simmonett,  A. Sodt,  T. Stein,  D. Stuck,  K. S. Thanthiriwatte,  
+ V. Vanovschi,  L. Vogt,  Tao Wang,  A. Warshel,  M. A. Watson,  
+ C. F. Williams,  Q. Wu,  X. Xu,  Jun Yang,  W. Zhang,  Yan Zhao
+
+   Please cite Q-Chem as follows:
+  "Software for the frontiers of quantum chemistry:
+   An overview of developments in the Q-Chem 5 package"
+   J. Chem. Phys. 155, 084801 (2021)
+   https://doi.org/10.1063/5.0055522 (open access)
+
+ Q-Chem 6.0.2 for Intel X86 EM64T Linux
+
+ Parts of Q-Chem use Armadillo 9.900.5 (Nocturnal Misbehaviour).
+ http://arma.sourceforge.net/
+
+ Q-Chem begins on Thu Apr 18 13:26:42 2024  
+
+ Host: 
+0
+
+     Scratch files written to /local_scratch/24465579/QCLOCALSCR/save//
+ Dec722 |scratch|qcdevops|jenkins|workspace|build_RNUM 9024   
+ Processing $rem in /gpfs/fs2/scratch/phuo_lab/Program/Qchem/config/preferences:
+ Processing $rem in /home/bweight/.qchemrc:
+
+ Checking the input file for inconsistencies... 	...done.
+
+--------------------------------------------------------------
+User input:
+--------------------------------------------------------------
+$molecule
+1 1
+C                  0.02949981    1.33972592    100.06817723
+C                  1.43483278    1.28667967    100.00635313
+C                  2.11179024    0.05106117     99.99455862
+C                  1.44506636   -1.13720058    100.03116583
+C                 -0.68793171    0.16822220    100.10995314
+H                 -0.47126997    2.29839666    100.07811355
+H                  2.02732783    2.19651728     99.96779376
+H                  1.98966526   -2.07643217    100.02318494
+H                 -1.77163480    0.18040547    100.15819632
+N                  3.58635895    0.05097292     99.93254714
+O                  4.14711759   -1.05966097     99.91192151
+O                  4.14497859    1.16390951     99.90989177
+C                 -0.02361177   -1.14582791    100.08353483
+H                 -0.43674996   -1.87247364    100.78889576
+Br                -0.53591638   -1.86972195     98.25921329
+$end
+
+$rem
+METHOD             wB97XD
+RPA                TRUE
+BASIS              6-31G
+CIS_N_ROOTS        20
+CIS_SINGLETS       TRUE
+CIS_TRIPLETS       FALSE
+MAKE_CUBE_FILES    TRUE
+PLOTS              TRUE
+STS_MOM            TRUE
+SYM_IGNORE         TRUE
+SYMMETRY           FALSE
+$end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------
+ ----------------------------------------------------------------
+             Standard Nuclear Orientation (Angstroms)
+    I     Atom           X                Y                Z
+ ----------------------------------------------------------------
+    1      C       0.0294998100     1.3397259200   100.0681772300
+    2      C       1.4348327800     1.2866796700   100.0063531300
+    3      C       2.1117902400     0.0510611700    99.9945586200
+    4      C       1.4450663600    -1.1372005800   100.0311658300
+    5      C      -0.6879317100     0.1682222000   100.1099531400
+    6      H      -0.4712699700     2.2983966600   100.0781135500
+    7      H       2.0273278300     2.1965172800    99.9677937600
+    8      H       1.9896652600    -2.0764321700   100.0231849400
+    9      H      -1.7716348000     0.1804054700   100.1581963200
+   10      N       3.5863589500     0.0509729200    99.9325471400
+   11      O       4.1471175900    -1.0596609700    99.9119215100
+   12      O       4.1449785900     1.1639095100    99.9098917700
+   13      C      -0.0236117700    -1.1458279100   100.0835348300
+   14      H      -0.4367499600    -1.8724736400   100.7888957600
+   15      Br     -0.5359163800    -1.8697219500    98.2592132900
+ ----------------------------------------------------------------
+ Nuclear Repulsion Energy =         739.20410593 hartrees
+ There are       49 alpha and       49 beta electrons
+ Requested basis set is 6-31G
+ There are 44 shells and 120 basis functions
+
+ Total QAlloc Memory Limit   2000 MB
+ Mega-Array Size       188 MB
+ MEM_STATIC part       192 MB
+
+
+                       Distance Matrix (Angstroms)
+             C (  1)   C (  2)   C (  3)   C (  4)   C (  5)   H (  6)
+   C (  2)  1.407692
+   C (  3)  2.449900  1.408958
+   C (  4)  2.853132  2.424029  1.363021
+   C (  5)  1.374363  2.401626  2.804547  2.502003
+   H (  6)  1.081628  2.159155  3.424865  3.934193  2.141401
+   H (  7)  2.176117  1.086435  2.147285  3.384778  3.392171  2.503106
+   H (  8)  3.938833  3.408613  2.131188  1.085729  3.495072  5.019795
+   H (  9)  2.143878  3.395340  3.889023  3.478418  1.084845  2.486614
+   N ( 10)  3.785568  2.482234  1.475872  2.450840  4.279577  4.640739
+   O ( 11)  4.768254  3.587579  2.320149  2.705792  4.992456  5.712589
+   O ( 12)  4.122273  2.714640  2.319365  3.549555  4.938465  4.756586
+   C ( 13)  2.486169  2.837272  2.449572  1.469637  1.472666  3.473199
+   H ( 14)  3.324914  3.754390  3.290291  2.157780  2.165293  4.231142
+   Br( 15)  3.727278  4.110866  3.702861  2.756936  2.757093  4.548163
+             H (  7)   H (  8)   H (  9)   N ( 10)   O ( 11)   O ( 12)
+   H (  8)  4.273474
+   H (  9)  4.305006  4.388499
+   N ( 10)  2.652392  2.661484  5.364305
+   O ( 11)  3.885785  2.387636  6.052276  1.244341
+   O ( 12)  2.356709  3.893331  6.002937  1.245471  2.223572
+   C ( 13)  3.923139  2.218772  2.195462  3.806182  4.175148  4.768877
+   H ( 14)  4.827274  2.552529  2.528638  4.540747  4.737256  5.566373
+   Br( 15)  5.101350  3.087537  3.055513  4.845851  5.031744  5.817081
+             C ( 13)   H ( 14)
+   H ( 14)  1.093724
+   Br( 15)  2.028455  2.531627
+ 
+ A cutoff of  1.0D-12 yielded    839 shell pairs
+ There are      6618 function pairs
+ Smallest overlap matrix eigenvalue = 8.16E-04
+
+ Scale SEOQF with 1.000000e-01/1.000000e-01/1.000000e-04
+
+ Standard Electronic Orientation quadrupole field applied
+ Nucleus-field energy     =    -0.0000000750 hartrees
+ Guess from superposition of atomic densities
+ Warning:  Energy on first SCF cycle will be non-variational
+ SAD guess density has 99.009036 electrons
+
+ -----------------------------------------------------------------------
+  General SCF calculation program by
+  Eric Jon Sundstrom, Paul Horn, Yuezhi Mao, Dmitri Zuev, Alec White,
+  David Stuck, Shaama M.S., Shane Yost, Joonho Lee, David Small,
+  Daniel Levine, Susi Lehtola, Hugh Burton, Evgeny Epifanovsky,
+  Bang C. Huynh
+ -----------------------------------------------------------------------
+ Exchange:     0.2220 Hartree-Fock + 1.0000 wB97X-D + LR-HF
+ Correlation:  1.0000 wB97X-D
+ Using SG-2 standard quadrature grid
+ Dispersion:   Grimme D
+ using 12 threads for integral computing
+ -------------------------------------------------------
+ OpenMP Integral computing Module                
+ Release: version 1.0, May 2013, Q-Chem Inc. Pittsburgh 
+ -------------------------------------------------------
+ A restricted SCF calculation will be
+ performed using DIIS
+ SCF converges when DIIS error is below 1.0e-08
+ ---------------------------------------
+  Cycle       Energy         DIIS error
+ ---------------------------------------
+    1   -3014.0329434197      2.87e-01  
+    2   -3009.6670399280      1.30e-02  
+    3   -3009.4217983957      1.99e-02  
+    4   -3009.9602820868      9.76e-04  
+    5   -3009.9613681560      7.26e-04  
+    6   -3009.9623648569      1.44e-04  
+    7   -3009.9624061312      7.24e-05  
+    8   -3009.9624149260      5.06e-05  
+    9   -3009.9624191326      1.18e-05  
+   10   -3009.9624196070      4.35e-06  
+   11   -3009.9624196718      9.49e-07  
+   12   -3009.9624196807      3.47e-07  
+   13   -3009.9624196819      1.70e-07  
+   14   -3009.9624196821      6.68e-08  
+   15   -3009.9624196822      2.48e-08  
+   16   -3009.9624196822      1.33e-08  
+   17   -3009.9624196822      4.71e-09  Convergence criterion met
+ ---------------------------------------
+ SCF time:   CPU 68.91s  wall 7.00s 
+ SCF   energy in the final basis set =    -3009.9624196822
+ Total energy in the final basis set =    -3009.9624196822
+ 
+ MAX_CIS_SUBSPACE fits in available memory
+ Direct TDDFT/TDA calculation will be performed
+ Exchange:     0.2220 Hartree-Fock + 1.0000 wB97X-D + LR-HF
+ Correlation:  1.0000 wB97X-D
+ Using SG-2 standard quadrature grid
+ Dispersion:   Grimme D
+ Singlet excitation energies requested
+ CIS energy converged when residual is below 10e- 6
+ ---------------------------------------------------
+ Iter    Rts Conv    Rts Left    Ttl Dev     Max Dev
+ ---------------------------------------------------
+   1         0          20      0.019767    0.004067
+   2         0          20      0.005525    0.000644
+   3         0          20      0.002177    0.000280
+   4         0          20      0.001642    0.000965
+   5         5          15      0.000596    0.000314
+   6         8          12      0.000284    0.000147
+   7        14           6      0.000084    0.000044
+   8        18           2      0.000024    0.000011
+   9        18           2      0.000011    0.000003
+  10        20           0      0.000007    0.000001    Roots Converged
+ ---------------------------------------------------
+ 
+ ---------------------------------------------------
+         TDDFT/TDA Excitation Energies              
+ ---------------------------------------------------
+
+ Excited state   1: excitation energy (eV) =    2.6377
+ Total energy for state  1:                 -3009.86548779 au
+    Multiplicity: Singlet
+    Trans. Mom.: -0.2429 X   0.0833 Y   0.0038 Z
+    Strength   :     0.0042607939
+    D(   47) --> V(    1) amplitude =  0.6847
+    D(   48) --> V(    1) amplitude =  0.3483
+    D(   49) --> V(    1) amplitude = -0.5753
+
+ Excited state   2: excitation energy (eV) =    2.8664
+ Total energy for state  2:                 -3009.85708164 au
+    Multiplicity: Singlet
+    Trans. Mom.: -0.1328 X  -0.1836 Y  -0.2145 Z
+    Strength   :     0.0068372486
+    D(   45) --> V(    1) amplitude =  0.6859
+    D(   46) --> V(    1) amplitude =  0.6821
+
+ Excited state   3: excitation energy (eV) =    3.3532
+ Total energy for state  3:                 -3009.83919218 au
+    Multiplicity: Singlet
+    Trans. Mom.: -0.0213 X   0.0120 Y   0.0237 Z
+    Strength   :     0.0000952612
+    D(   47) --> V(    1) amplitude =  0.3047
+    D(   48) --> V(    1) amplitude =  0.5768
+    D(   49) --> V(    1) amplitude =  0.6992
+
+ Excited state   4: excitation energy (eV) =    3.4952
+ Total energy for state  4:                 -3009.83397497 au
+    Multiplicity: Singlet
+    Trans. Mom.: -0.3241 X  -0.0185 Y  -0.0246 Z
+    Strength   :     0.0090731569
+    D(   47) --> V(    1) amplitude = -0.6191
+    D(   48) --> V(    1) amplitude =  0.7022
+    D(   49) --> V(    1) amplitude = -0.3034
+
+ Excited state   5: excitation energy (eV) =    3.5149
+ Total energy for state  5:                 -3009.83325046 au
+    Multiplicity: Singlet
+    Trans. Mom.:  0.0311 X  -0.0091 Y   0.0320 Z
+    Strength   :     0.0001784984
+    D(   45) --> V(    1) amplitude =  0.6232
+    D(   46) --> V(    1) amplitude = -0.6115
+    D(   48) --> V(    2) amplitude = -0.2255
+    D(   49) --> V(    2) amplitude = -0.2995
+
+ Excited state   6: excitation energy (eV) =    3.5904
+ Total energy for state  6:                 -3009.83047660 au
+    Multiplicity: Singlet
+    Trans. Mom.:  0.0336 X  -0.0000 Y   0.0258 Z
+    Strength   :     0.0001579849
+    D(   45) --> V(    1) amplitude =  0.2923
+    D(   46) --> V(    1) amplitude = -0.3176
+    D(   47) --> V(    2) amplitude =  0.2300
+    D(   48) --> V(    2) amplitude =  0.4509
+    D(   49) --> V(    2) amplitude =  0.6378
+    D(   49) --> V(    4) amplitude = -0.2322
+
+ Excited state   7: excitation energy (eV) =    3.9596
+ Total energy for state  7:                 -3009.81690577 au
+    Multiplicity: Singlet
+    Trans. Mom.:  0.0159 X   0.0058 Y   0.0294 Z
+    Strength   :     0.0001117186
+    D(   45) --> V(    2) amplitude = -0.5735
+    D(   46) --> V(    2) amplitude =  0.6974
+    D(   46) --> V(    4) amplitude = -0.2295
+
+ Excited state   8: excitation energy (eV) =    4.4348
+ Total energy for state  8:                 -3009.79944207 au
+    Multiplicity: Singlet
+    Trans. Mom.:  0.9298 X  -0.4426 Y  -0.0642 Z
+    Strength   :     0.1156691280
+    D(   44) --> V(    1) amplitude =  0.9419
+
+ Excited state   9: excitation energy (eV) =    5.3942
+ Total energy for state  9:                 -3009.76418828 au
+    Multiplicity: Singlet
+    Trans. Mom.:  0.2647 X   0.3590 Y   0.4559 Z
+    Strength   :     0.0537550748
+    D(   42) --> V(    1) amplitude =  0.6950
+    D(   43) --> V(    1) amplitude = -0.5764
+    D(   47) --> V(    2) amplitude =  0.2574
+
+ Excited state  10: excitation energy (eV) =    5.5155
+ Total energy for state 10:                 -3009.75972880 au
+    Multiplicity: Singlet
+    Trans. Mom.:  0.1452 X  -0.2488 Y  -0.0704 Z
+    Strength   :     0.0118796337
+    D(   42) --> V(    1) amplitude =  0.6324
+    D(   43) --> V(    1) amplitude =  0.4192
+    D(   47) --> V(    2) amplitude = -0.4294
+    D(   49) --> V(    2) amplitude =  0.3056
+
+ Excited state  11: excitation energy (eV) =    5.9216
+ Total energy for state 11:                 -3009.74480462 au
+    Multiplicity: Singlet
+    Trans. Mom.:  0.1296 X   0.1470 Y   0.2935 Z
+    Strength   :     0.0180698649
+    D(   40) --> V(    1) amplitude = -0.2234
+    D(   41) --> V(    1) amplitude =  0.9366
+
+ Excited state  12: excitation energy (eV) =    6.0448
+ Total energy for state 12:                 -3009.74027700 au
+    Multiplicity: Singlet
+    Trans. Mom.:  0.4087 X   0.0899 Y   0.1060 Z
+    Strength   :     0.0276006730
+    D(   45) --> V(    2) amplitude =  0.7042
+    D(   45) --> V(    4) amplitude =  0.2268
+    D(   46) --> V(    2) amplitude =  0.5448
+    D(   46) --> V(    4) amplitude =  0.2441
+
+ Excited state  13: excitation energy (eV) =    6.1401
+ Total energy for state 13:                 -3009.73677605 au
+    Multiplicity: Singlet
+    Trans. Mom.: -0.8569 X  -0.5460 Y  -0.3439 Z
+    Strength   :     0.1730892514
+    D(   43) --> V(    1) amplitude =  0.4220
+    D(   47) --> V(    3) amplitude =  0.3795
+    D(   48) --> V(    2) amplitude =  0.4711
+    D(   49) --> V(    2) amplitude = -0.3560
+    D(   49) --> V(    3) amplitude = -0.2776
+
+ Excited state  14: excitation energy (eV) =    6.3196
+ Total energy for state 14:                 -3009.73017748 au
+    Multiplicity: Singlet
+    Trans. Mom.: -0.2919 X   0.2779 Y  -0.0557 Z
+    Strength   :     0.0256292215
+    D(   47) --> V(    2) amplitude = -0.3444
+    D(   47) --> V(    3) amplitude = -0.3495
+    D(   47) --> V(    4) amplitude = -0.3062
+    D(   48) --> V(    2) amplitude =  0.5163
+    D(   48) --> V(    3) amplitude = -0.3147
+    D(   49) --> V(    2) amplitude = -0.2411
+    D(   49) --> V(    3) amplitude =  0.3492
+
+ Excited state  15: excitation energy (eV) =    6.4234
+ Total energy for state 15:                 -3009.72636570 au
+    Multiplicity: Singlet
+    Trans. Mom.:  0.1968 X   0.5378 Y   0.1718 Z
+    Strength   :     0.0562585907
+    D(   45) --> V(    3) amplitude =  0.5146
+    D(   46) --> V(    3) amplitude =  0.5235
+    D(   47) --> V(    2) amplitude = -0.3583
+    D(   47) --> V(    3) amplitude =  0.2204
+
+ Excited state  16: excitation energy (eV) =    6.5853
+ Total energy for state 16:                 -3009.72041280 au
+    Multiplicity: Singlet
+    Trans. Mom.: -0.9907 X  -1.1204 Y  -0.4163 Z
+    Strength   :     0.3888501168
+    D(   43) --> V(    1) amplitude =  0.3809
+    D(   45) --> V(    3) amplitude =  0.3509
+    D(   46) --> V(    3) amplitude =  0.3370
+    D(   47) --> V(    2) amplitude =  0.4715
+    D(   47) --> V(    3) amplitude = -0.2850
+
+ Excited state  17: excitation energy (eV) =    6.7708
+ Total energy for state 17:                 -3009.71359714 au
+    Multiplicity: Singlet
+    Trans. Mom.:  0.9104 X   0.3466 Y   0.1622 Z
+    Strength   :     0.1617890674
+    D(   40) --> V(    1) amplitude =  0.3510
+    D(   44) --> V(    2) amplitude =  0.8257
+    D(   49) --> V(    4) amplitude = -0.2232
+
+ Excited state  18: excitation energy (eV) =    7.0895
+ Total energy for state 18:                 -3009.70188514 au
+    Multiplicity: Singlet
+    Trans. Mom.: -0.0069 X   0.0211 Y   0.0012 Z
+    Strength   :     0.0000862583
+    D(   47) --> V(    4) amplitude = -0.2431
+    D(   48) --> V(    3) amplitude =  0.2798
+    D(   48) --> V(    4) amplitude = -0.4134
+    D(   49) --> V(    2) amplitude = -0.2366
+    D(   49) --> V(    3) amplitude =  0.3735
+    D(   49) --> V(    4) amplitude = -0.5598
+
+ Excited state  19: excitation energy (eV) =    7.2434
+ Total energy for state 19:                 -3009.69622816 au
+    Multiplicity: Singlet
+    Trans. Mom.:  0.0954 X  -0.0810 Y  -0.1117 Z
+    Strength   :     0.0049941995
+    D(   38) --> V(    1) amplitude = -0.2919
+    D(   40) --> V(    1) amplitude = -0.3804
+    D(   45) --> V(    3) amplitude = -0.2386
+    D(   45) --> V(    4) amplitude =  0.3608
+    D(   46) --> V(    3) amplitude =  0.3052
+    D(   46) --> V(    4) amplitude = -0.4711
+    D(   49) --> V(    4) amplitude = -0.2139
+
+ Excited state  20: excitation energy (eV) =    7.3007
+ Total energy for state 20:                 -3009.69412255 au
+    Multiplicity: Singlet
+    Trans. Mom.: -0.2725 X   0.2084 Y   0.3434 Z
+    Strength   :     0.0421476078
+    D(   38) --> V(    1) amplitude =  0.4248
+    D(   40) --> V(    1) amplitude =  0.5784
+    D(   43) --> V(    2) amplitude = -0.2482
+    D(   45) --> V(    3) amplitude = -0.2375
+    D(   45) --> V(    4) amplitude =  0.2617
+    D(   46) --> V(    4) amplitude = -0.2917
+ 
+ ---------------------------------------------------
+
+ Direct TDDFT calculation will be performed
+ Exchange:     0.2220 Hartree-Fock + 1.0000 wB97X-D + LR-HF
+ Correlation:  1.0000 wB97X-D
+ Using SG-2 standard quadrature grid
+ Dispersion:   Grimme D
+ ---------------------------------------------------
+ Iter    Rts Conv    Rts Left    Ttl Dev     Max Dev
+ ---------------------------------------------------
+   1         0          20      0.010307    0.001207
+   2         0          20      0.002993    0.000470
+   3         0          20      0.000998    0.000175
+   4         0          20      0.000464    0.000060
+   5         1          19      0.000167    0.000026
+   6         7          13      0.000062    0.000014
+   7        12           8      0.000026    0.000006
+   8        18           2      0.000014    0.000002
+   9        20           0      0.000011    0.000001    Roots Converged
+ ---------------------------------------------------
+ 
+ ---------------------------------------------------
+             TDDFT Excitation Energies              
+ ---------------------------------------------------
+
+ Excited state   1: excitation energy (eV) =    2.5600
+ Total energy for state  1:                 -3009.86834204 au
+    Multiplicity: Singlet 
+    Trans. Mom.: -0.2137 X   0.0632 Y   0.0020 Z
+    Strength   :     0.0031150685
+    X: D(   47) --> V(    1) amplitude =  0.6932
+    X: D(   48) --> V(    1) amplitude =  0.3657
+    X: D(   49) --> V(    1) amplitude = -0.5800
+
+ Excited state   2: excitation energy (eV) =    2.8281
+ Total energy for state  2:                 -3009.85849015 au
+    Multiplicity: Singlet 
+    Trans. Mom.: -0.1289 X  -0.1804 Y  -0.1709 Z
+    Strength   :     0.0054274643
+    X: D(   45) --> V(    1) amplitude =  0.6884
+    X: D(   46) --> V(    1) amplitude =  0.6840
+
+ Excited state   3: excitation energy (eV) =    3.3491
+ Total energy for state  3:                 -3009.83934184 au
+    Multiplicity: Singlet 
+    Trans. Mom.: -0.0249 X   0.0122 Y   0.0144 Z
+    Strength   :     0.0000801507
+    X: D(   47) --> V(    1) amplitude =  0.2960
+    X: D(   48) --> V(    1) amplitude =  0.5745
+    X: D(   49) --> V(    1) amplitude =  0.6978
+
+ Excited state   4: excitation energy (eV) =    3.4876
+ Total energy for state  4:                 -3009.83425380 au
+    Multiplicity: Singlet 
+    Trans. Mom.: -0.3202 X  -0.0144 Y  -0.0270 Z
+    Strength   :     0.0088380056
+    X: D(   47) --> V(    1) amplitude = -0.6177
+    X: D(   48) --> V(    1) amplitude =  0.6959
+    X: D(   49) --> V(    1) amplitude = -0.2824
+
+ Excited state   5: excitation energy (eV) =    3.5063
+ Total energy for state  5:                 -3009.83356570 au
+    Multiplicity: Singlet 
+    Trans. Mom.:  0.0031 X  -0.0128 Y   0.0260 Z
+    Strength   :     0.0000730320
+    X: D(   45) --> V(    1) amplitude =  0.5706
+    X: D(   46) --> V(    1) amplitude = -0.5662
+    X: D(   48) --> V(    2) amplitude = -0.2791
+    X: D(   49) --> V(    1) amplitude = -0.2345
+    X: D(   49) --> V(    2) amplitude = -0.3636
+
+ Excited state   6: excitation energy (eV) =    3.5681
+ Total energy for state  6:                 -3009.83129490 au
+    Multiplicity: Singlet 
+    Trans. Mom.:  0.0408 X  -0.0029 Y   0.0278 Z
+    Strength   :     0.0002138297
+    X: D(   45) --> V(    1) amplitude =  0.3649
+    X: D(   46) --> V(    1) amplitude = -0.3914
+    X: D(   48) --> V(    2) amplitude =  0.4165
+    X: D(   49) --> V(    2) amplitude =  0.5935
+    X: D(   49) --> V(    4) amplitude = -0.2194
+
+ Excited state   7: excitation energy (eV) =    3.9312
+ Total energy for state  7:                 -3009.81795149 au
+    Multiplicity: Singlet 
+    Trans. Mom.:  0.0118 X   0.0064 Y   0.0361 Z
+    Strength   :     0.0001425739
+    X: D(   45) --> V(    2) amplitude = -0.5735
+    X: D(   46) --> V(    2) amplitude =  0.6974
+    X: D(   46) --> V(    4) amplitude = -0.2304
+
+ Excited state   8: excitation energy (eV) =    4.1710
+ Total energy for state  8:                 -3009.80913988 au
+    Multiplicity: Singlet 
+    Trans. Mom.:  0.7621 X  -0.3493 Y  -0.0472 Z
+    Strength   :     0.0720465849
+    X: D(   44) --> V(    1) amplitude =  0.9720
+
+ Excited state   9: excitation energy (eV) =    5.3073
+ Total energy for state  9:                 -3009.76737877 au
+    Multiplicity: Singlet 
+    Trans. Mom.:  0.2929 X   0.5001 Y   0.4822 Z
+    Strength   :     0.0739094802
+    X: D(   42) --> V(    1) amplitude =  0.4565
+    X: D(   43) --> V(    1) amplitude = -0.7587
+    X: D(   47) --> V(    2) amplitude =  0.3281
+
+ Excited state  10: excitation energy (eV) =    5.4676
+ Total energy for state 10:                 -3009.76148996 au
+    Multiplicity: Singlet 
+    Trans. Mom.:  0.1526 X  -0.1451 Y   0.0433 Z
+    Strength   :     0.0061913453
+    X: D(   42) --> V(    1) amplitude =  0.8208
+    X: D(   43) --> V(    1) amplitude =  0.2657
+    X: D(   47) --> V(    2) amplitude = -0.3315
+    X: D(   49) --> V(    2) amplitude =  0.2131
+
+ Excited state  11: excitation energy (eV) =    5.7991
+ Total energy for state 11:                 -3009.74930557 au
+    Multiplicity: Singlet 
+    Trans. Mom.: -0.6454 X   0.0616 Y  -0.2042 Z
+    Strength   :     0.0656427814
+    X: D(   43) --> V(    1) amplitude =  0.2139
+    X: D(   47) --> V(    2) amplitude = -0.2198
+    X: D(   48) --> V(    2) amplitude =  0.7833
+    X: D(   49) --> V(    2) amplitude = -0.4788
+
+ Excited state  12: excitation energy (eV) =    5.9014
+ Total energy for state 12:                 -3009.74554780 au
+    Multiplicity: Singlet 
+    Trans. Mom.:  0.0723 X   0.2173 Y   0.2617 Z
+    Strength   :     0.0174851334
+    X: D(   41) --> V(    1) amplitude =  0.9361
+
+ Excited state  13: excitation energy (eV) =    6.0194
+ Total energy for state 13:                 -3009.74121195 au
+    Multiplicity: Singlet 
+    Trans. Mom.:  0.6527 X   0.5594 Y   0.2040 Z
+    Strength   :     0.1151175342
+    X: D(   43) --> V(    1) amplitude = -0.2668
+    X: D(   45) --> V(    2) amplitude =  0.6093
+    X: D(   46) --> V(    2) amplitude =  0.3979
+    X: D(   47) --> V(    2) amplitude = -0.4153
+
+ Excited state  14: excitation energy (eV) =    6.0905
+ Total energy for state 14:                 -3009.73859932 au
+    Multiplicity: Singlet 
+    Trans. Mom.: -0.6049 X  -0.9570 Y  -0.2639 Z
+    Strength   :     0.2016502893
+    X: D(   43) --> V(    1) amplitude =  0.3463
+    X: D(   45) --> V(    2) amplitude =  0.3614
+    X: D(   46) --> V(    2) amplitude =  0.4474
+    X: D(   47) --> V(    2) amplitude =  0.5072
+    X: D(   47) --> V(    3) amplitude =  0.2494
+    X: D(   49) --> V(    3) amplitude = -0.2156
+
+ Excited state  15: excitation energy (eV) =    6.3406
+ Total energy for state 15:                 -3009.72940508 au
+    Multiplicity: Singlet 
+    Trans. Mom.:  0.5691 X   0.6445 Y   0.2267 Z
+    Strength   :     0.1228223575
+    X: D(   43) --> V(    1) amplitude = -0.2187
+    X: D(   46) --> V(    3) amplitude =  0.2938
+    X: D(   47) --> V(    2) amplitude = -0.2762
+    X: D(   47) --> V(    3) amplitude =  0.5225
+    X: D(   47) --> V(    4) amplitude =  0.2136
+    X: D(   48) --> V(    3) amplitude =  0.2962
+    X: D(   49) --> V(    3) amplitude = -0.4073
+
+ Excited state  16: excitation energy (eV) =    6.4587
+ Total energy for state 16:                 -3009.72506711 au
+    Multiplicity: Singlet 
+    Trans. Mom.: -0.5864 X  -0.5137 Y  -0.1658 Z
+    Strength   :     0.1005074592
+    X: D(   45) --> V(    3) amplitude =  0.6120
+    X: D(   45) --> V(    4) amplitude =  0.2308
+    X: D(   46) --> V(    3) amplitude =  0.5615
+
+ Excited state  17: excitation energy (eV) =    6.7191
+ Total energy for state 17:                 -3009.71549724 au
+    Multiplicity: Singlet 
+    Trans. Mom.:  0.6487 X   0.1076 Y   0.0517 Z
+    Strength   :     0.0716106273
+    X: D(   40) --> V(    1) amplitude =  0.3103
+    X: D(   44) --> V(    2) amplitude =  0.8491
+
+ Excited state  18: excitation energy (eV) =    7.0869
+ Total energy for state 18:                 -3009.70198254 au
+    Multiplicity: Singlet 
+    Trans. Mom.: -0.0119 X   0.0149 Y  -0.0058 Z
+    Strength   :     0.0000689983
+    X: D(   47) --> V(    4) amplitude = -0.2432
+    X: D(   48) --> V(    3) amplitude =  0.2810
+    X: D(   48) --> V(    4) amplitude = -0.4154
+    X: D(   49) --> V(    2) amplitude = -0.2384
+    X: D(   49) --> V(    3) amplitude =  0.3727
+    X: D(   49) --> V(    4) amplitude = -0.5576
+
+ Excited state  19: excitation energy (eV) =    7.2119
+ Total energy for state 19:                 -3009.69738801 au
+    Multiplicity: Singlet 
+    Trans. Mom.:  0.1403 X  -0.1824 Y  -0.2999 Z
+    Strength   :     0.0252394202
+    X: D(   38) --> V(    1) amplitude = -0.4228
+    X: D(   40) --> V(    1) amplitude = -0.6794
+    X: D(   46) --> V(    4) amplitude = -0.2531
+
+ Excited state  20: excitation energy (eV) =    7.2648
+ Total energy for state 20:                 -3009.69544376 au
+    Multiplicity: Singlet 
+    Trans. Mom.: -0.1437 X   0.1394 Y   0.2406 Z
+    Strength   :     0.0174417731
+    X: D(   40) --> V(    1) amplitude =  0.3357
+    X: D(   45) --> V(    2) amplitude =  0.2269
+    X: D(   45) --> V(    3) amplitude = -0.3240
+    X: D(   45) --> V(    4) amplitude =  0.4049
+    X: D(   46) --> V(    3) amplitude =  0.3046
+    X: D(   46) --> V(    4) amplitude = -0.4915
+ 
+ ---------------------------------------------------
+  SETman timing summary (seconds)
+  CPU time               242.01s
+  System time              0.00s
+  Wall time               20.21s
+
+                    STATE-TO-STATE TRANSITION MOMENTS
+
+
+    Electron Dipole Moments of Ground State
+ -----------------------------------------------------
+   State     X           Y           Z(a.u.) 
+ -----------------------------------------------------
+       0   189.112724  -113.456541  18405.802470
+ -----------------------------------------------------
+
+ Within CIS/TDA Excited States:
+
+    Electron Dipole Moments of Singlet Excited State
+ -----------------------------------------------------
+   State     X           Y           Z(a.u.) 
+ -----------------------------------------------------
+       1   190.257168  -111.559503  18407.671062
+       2   190.575931  -111.103213  18407.966157
+       3   183.098174  -113.864384  18405.505423
+       4   182.597462  -113.871242  18405.514505
+       5   184.071782  -114.054916  18405.591626
+       6   186.977551  -113.382914  18405.772073
+       7   188.152109  -113.494066  18405.831514
+       8   188.703069  -113.706004  18405.463237
+       9   189.610706  -113.609247  18405.990777
+      10   190.059504  -113.454711  18406.057724
+      11   189.574646  -114.184060  18405.329626
+      12   192.746013  -110.416819  18408.460780
+      13   189.535808  -112.620278  18406.750426
+      14   187.089207  -113.136321  18406.471021
+      15   189.887261  -112.089161  18407.535257
+      16   190.132820  -112.591829  18407.147807
+      17   191.886956  -112.361081  18406.626495
+      18   183.723988  -112.906308  18405.980117
+      19   185.666743  -113.747256  18405.908393
+      20   187.916607  -113.334725  18405.878331
+ -----------------------------------------------------
+
+                Transition Moments Between Ground and Singlet Excited States
+ --------------------------------------------------------------------------------
+    States   X          Y          Z           Strength(a.u.)
+ --------------------------------------------------------------------------------
+    0    1  -0.242852   0.083330   0.003755    0.004260794
+    0    2  -0.132819  -0.183555  -0.214542    0.006837249
+    0    3  -0.021259   0.012050   0.023716   9.526119E-05
+    0    4  -0.324051  -0.018529  -0.024604    0.009073157
+    0    5   0.031123  -0.009084   0.031964   0.0001784984
+    0    6   0.033597  -0.000027   0.025833   0.0001579849
+    0    7   0.015851   0.005823   0.029436   0.0001117186
+    0    8   0.929835  -0.442573  -0.064198      0.1156691
+    0    9   0.264686   0.359014   0.455862     0.05375507
+    0   10   0.145191  -0.248764  -0.070359     0.01187963
+    0   11   0.129631   0.146983   0.293506     0.01806986
+    0   12   0.408705   0.089925   0.106043     0.02760067
+    0   13  -0.856909  -0.545985  -0.343866      0.1730893
+    0   14  -0.291914   0.277888  -0.055658     0.02562922
+    0   15   0.196754   0.537842   0.171779     0.05625859
+    0   16  -0.990669  -1.120445  -0.416337      0.3888501
+    0   17   0.910437   0.346591   0.162195      0.1617891
+    0   18  -0.006921   0.021149   0.001200   8.625831E-05
+    0   19   0.095376  -0.081041  -0.111706      0.0049942
+    0   20  -0.272516   0.208410   0.343424     0.04214761
+ --------------------------------------------------------------------------------
+
+                Transition Moments Between Singlet Excited States
+ --------------------------------------------------------------------------------
+    States   X          Y          Z           Strength(a.u.)
+ --------------------------------------------------------------------------------
+    1    2   0.101007  -0.005703   0.011263   5.806829E-05
+    1    3   0.250967   0.176376   0.068356    0.001731403
+    1    4  -0.068249   0.028197  -0.083635   0.0002615129
+    1    5  -0.544542  -0.212020  -0.148001    0.007809648
+    1    6  -0.192423  -0.111270  -0.065084    0.001252087
+    1    7   0.054347  -0.080323  -0.012557   0.0003097297
+    1    8   0.811794   1.037420   0.925739      0.1141377
+    1    9  -0.338958   0.642385   0.284882     0.04110791
+    1   10   0.495113  -0.600962  -0.043014     0.04287766
+    1   11   0.032697  -0.219240  -0.187574    0.006783954
+    1   12   0.012736  -0.181114  -0.057289    0.003025636
+    1   13   0.618745   0.994999   0.621775      0.1509765
+    1   14  -0.724141  -0.840346  -0.669662      0.1514581
+    1   15   0.449199   0.226077   0.254899     0.02948127
+    1   16  -0.393296  -0.301630  -0.316916     0.03347345
+    1   17  -0.194416   0.170075   0.063319    0.007162385
+    1   18  -0.008176   0.006163  -0.005192   1.437316E-05
+    1   19  -0.241723   0.114262   0.037733    0.008227086
+    1   20   0.344147  -0.113859  -0.012020     0.01502821
+    2    3  -0.400377  -0.239328  -0.128300    0.002791241
+    2    4  -0.189828  -0.071031  -0.048249   0.0006686775
+    2    5   0.541923   0.265250   0.202658    0.006436139
+    2    6   0.168081   0.128786   0.083834   0.0009199117
+    2    7  -0.047132   0.064683   0.004825   0.0001721828
+    2    8   0.012127  -0.073514  -0.026160   0.0002396171
+    2    9   0.110277   0.193379   0.250899    0.006967439
+    2   10   0.042473  -0.046598   0.104256   0.0009634535
+    2   11   0.017370   0.042510   0.217842    0.003709925
+    2   12  -0.343967   1.163303   0.405859      0.1274189
+    2   13  -0.324213   0.025021  -0.013385    0.008495113
+    2   14  -0.120540  -0.110028  -0.083251    0.002839851
+    2   15   0.981565   0.708998   0.630676      0.1624276
+    2   16   0.565169   0.564736   0.507885     0.08166335
+    2   17  -0.107828  -0.173968  -0.071035    0.004489862
+    2   18   0.020113  -0.014648  -0.004530   6.617891E-05
+    2   19   0.114578  -0.000293  -0.101215     0.00250639
+    2   20  -0.118102  -0.053124   0.158609    0.004554936
+    3    4  -0.062422  -0.091200   0.040651   4.822958E-05
+    3    5   0.494047   1.024612  -0.029867    0.005128913
+    3    6  -1.103468   0.902854  -0.015458     0.01181268
+    3    7   0.306884   0.192450   0.020480    0.001955769
+    3    8  -0.140363  -0.068227   0.045791   0.0007010205
+    3    9   0.039180   0.107640  -0.022073   0.0006804689
+    3   10   0.126425   0.127150  -0.015379    0.001715718
+    3   11   0.169432  -0.453803  -0.007853     0.01476887
+    3   12  -0.014425  -0.040635  -0.022686   0.0001565432
+    3   13   0.097862   0.027154   0.019732   0.0007308225
+    3   14  -0.013441  -0.015563  -0.024599   7.471153E-05
+    3   15  -0.067371  -0.010790  -0.023915   0.0003931832
+    3   16   0.100315  -0.022990  -0.017469   0.0008628732
+    3   17  -0.101193  -0.053799  -0.000280    0.001099747
+    3   18   0.477828  -0.544618   0.041774     0.04821065
+    3   19   0.331887   0.058875  -0.009541      0.0108373
+    3   20  -0.325861  -0.137293  -0.025383     0.01215483
+    4    5  -0.207635  -0.043672  -0.011792   2.181179E-05
+    4    6   0.232849  -0.017389   0.021442    0.000128229
+    4    7  -0.049670  -0.027746   0.002478    3.69043E-05
+    4    8  -0.421914  -0.203922   0.021499    0.005066154
+    4    9  -0.278923   0.026911  -0.038599    0.003722519
+    4   10   0.383647  -0.116507   0.040514      0.0080384
+    4   11   0.047594  -0.039784  -0.005342   0.0002304463
+    4   12   0.085955   0.033299   0.016941   0.0005487008
+    4   13  -0.242291   0.178867   0.052129    0.006053269
+    4   14  -0.445170   0.618555   0.065169      0.0404834
+    4   15  -0.227550   0.392616   0.037180      0.0148722
+    4   16   0.187436  -0.496749  -0.052106     0.02154708
+    4   17   0.188635   0.003791  -0.025259     0.00290796
+    4   18   0.039832   0.047215  -0.001677    0.000336268
+    4   19   0.063684   0.095669   0.029924    0.001295159
+    4   20  -0.038740  -0.214477  -0.044145    0.004610454
+    5    6  -1.706876  -0.234701  -0.128874    0.005520215
+    5    7   0.516033   0.151897  -0.036676    0.003167687
+    5    8   0.172747  -0.055431  -0.107182    0.001000778
+    5    9  -0.170948   0.013564   0.039435    0.001425547
+    5   10  -0.404427  -0.002694  -0.001123    0.008017295
+    5   11   0.574263   0.103531   0.015781     0.02009171
+    5   12  -0.041851   0.042094   0.028044   0.0002671322
+    5   13  -0.113353  -0.045069  -0.055820    0.001157427
+    5   14  -0.011403   0.099331   0.040748   0.0008010132
+    5   15   0.021965   0.070312   0.038843   0.0004941615
+    5   16  -0.086621  -0.042520  -0.007754   0.0007049557
+    5   17   0.089803   0.172584   0.043319    0.003168924
+    5   18  -0.626649  -0.079128   0.039651     0.03507649
+    5   19  -0.676338   0.263569  -0.022178     0.04817648
+    5   20  -0.235224   0.468607  -0.006433     0.02550351
+    6    7   0.347029  -1.719581  -0.014536     0.02784372
+    6    8   0.067207  -0.032567  -0.045683   0.0001585724
+    6    9  -0.065186  -0.007427   0.010300   0.0001949065
+    6   10  -0.166401   0.085120   0.004167    0.001648527
+    6   11   0.281247  -0.094284   0.002277    0.005025794
+    6   12   0.000923   0.125138   0.037268    0.001025231
+    6   13  -0.024715  -0.058804  -0.031696   0.0003169197
+    6   14   0.019750   0.002742   0.008596   3.152556E-05
+    6   15   0.009043   0.013050   0.008747    2.28073E-05
+    6   16  -0.015713  -0.050626  -0.017111   0.0002276615
+    6   17   0.070025   0.029879   0.004414   0.0004531653
+    6   18   1.561379   0.033672  -0.030029      0.2091702
+    6   19  -0.045011   0.046908  -0.018636   0.0004093425
+    6   20  -0.034616   0.272540  -0.001085    0.006861119
+    7    8  -0.025883   0.028441   0.005517   1.757181E-05
+    7    9  -0.016056  -0.068736  -0.040016    0.000231382
+    7   10   0.110339  -0.015362   0.039610   0.0005328768
+    7   11  -0.042177   0.096392   0.016907   0.0005458617
+    7   12   0.116627   0.095188   0.067658    0.001391595
+    7   13  -0.043631  -0.019387  -0.021530   0.0001465334
+    7   14  -0.016879   0.005436  -0.006973   2.099334E-05
+    7   15   0.004169   0.000517   0.008018   4.945837E-06
+    7   16  -0.052303  -0.035177  -0.054102   0.0004438724
+    7   17   0.074007  -0.062959  -0.018492   0.0006737634
+    7   18  -0.324811   0.024350   0.011394    0.008145391
+    7   19   1.340411   0.118678  -0.025856      0.1457347
+    7   20   0.874192   0.057701  -0.032245     0.06291252
+    8    9   0.266787  -0.246065  -0.021382    0.003106578
+    8   10  -0.479077   0.607502   0.191943     0.01682296
+    8   11  -0.104653   0.141800  -0.011389    0.001136063
+    8   12   0.009210  -0.166084  -0.106542    0.001539078
+    8   13  -0.822582   0.055508  -0.143673     0.02925936
+    8   14  -0.099899   0.064949   0.135892    0.001508345
+    8   15   0.139338  -0.009812   0.033711    0.001005911
+    8   16  -0.627311   0.347899   0.069382     0.02736345
+    8   17  -0.453327   0.816522   0.136159     0.05097775
+    8   18   0.066094  -0.038821  -0.003436   0.0003829013
+    8   19   0.445400  -0.184626   0.003179     0.01599666
+    8   20  -0.532093   0.111008  -0.012110     0.02075445
+    9   10  -0.705491  -0.467131  -0.618545    0.003265911
+    9   11  -0.408908  -0.065587   0.067100    0.002274473
+    9   12  -0.257773  -0.263398  -0.146982    0.002509557
+    9   13   0.544929   0.267676   0.076614     0.00684333
+    9   14   0.239534   0.176021   0.098727    0.002224463
+    9   15  -0.264898  -0.045228  -0.073268    0.001956302
+    9   16   0.701915   0.540819   0.356132     0.02661547
+    9   17   0.316041   0.978999   0.669114     0.05079465
+    9   18  -0.096390  -0.109177  -0.040093   0.0009477594
+    9   19  -0.720951  -0.255460  -0.206550     0.02843875
+    9   20   0.754545   0.393300   0.154673       0.034937
+   10   11   0.025100  -0.148458   0.077666   0.0002855676
+   10   12   0.154594   0.128140   0.040764   0.0005444027
+   10   13  -1.505635  -0.833703  -0.594313     0.05072871
+   10   14  -0.314276  -0.187540  -0.011588    0.002641396
+   10   15   0.629951   0.240813   0.278244      0.0118383
+   10   16  -1.409127  -0.840374  -0.642159     0.08136411
+   10   17   0.142081  -0.963789  -0.827305     0.05023771
+   10   18   0.068204   0.048029   0.066871   0.0004407787
+   10   19   0.091939   0.430202   0.133762     0.00895016
+   10   20   0.369485  -0.379892   0.019474     0.01229969
+   11   12   0.186595   0.212814   0.210021   0.0003749346
+   11   13  -0.306286  -0.325466  -0.191061    0.001264466
+   11   14   0.066985  -0.096430  -0.048112   0.0001570027
+   11   15   0.178102   0.113295   0.120657   0.0007266655
+   11   16  -0.383003  -0.311529  -0.194152    0.004576503
+   11   17   0.240288   0.156793  -0.065902    0.001803077
+   11   18   0.166438   0.016278  -0.018361   0.0008098495
+   11   19  -0.088100  -0.421950  -0.010790    0.006020898
+   11   20   0.188669   0.847199   0.111544     0.02587437
+   12   13   0.500478   0.388050   0.333169    0.001195138
+   12   14  -0.067729   0.000896   0.052820   4.967583E-05
+   12   15  -0.809372  -0.420104  -0.350391    0.008850781
+   12   16  -0.569977   0.036375  -0.051811    0.004355315
+   12   17   0.088134  -0.253779  -0.235949    0.002273895
+   12   18   0.154536   0.095519   0.053764   0.0009187424
+   12   19   0.404259   0.051332   0.029104    0.004901387
+   12   20   0.321396   0.347357   0.323324     0.01010755
+   13   14  -1.112417  -0.302190  -0.376345     0.00646847
+   13   15  -1.470163  -0.450117  -0.341533     0.01721615
+   13   16   1.238240   0.069325  -0.075504     0.01684047
+   13   17  -0.419024   0.427095   0.558744     0.01035612
+   13   18  -0.033084  -0.017835  -0.034577   6.066967E-05
+   13   19  -0.102340   0.111710   0.083416   0.0008085491
+   13   20   0.013006  -0.378901  -0.284305    0.006385648
+   14   15  -1.733145  -0.365657  -0.456897    0.008503459
+   14   16   1.558776   0.173499   0.282791     0.01653392
+   14   17  -0.684273  -0.236802   0.015285    0.005798017
+   14   18  -0.019757   0.001891  -0.032727   2.763108E-05
+   14   19  -0.214226   0.013518  -0.001028    0.001042841
+   14   20   0.119865   0.037251  -0.064420   0.0004784505
+   15   16   0.541893   0.394778   0.328209    0.002211378
+   15   17  -0.438015  -0.461449  -0.359140    0.004543681
+   15   18   0.003979   0.013829   0.004970   3.782553E-06
+   15   19  -0.069126  -0.050670  -0.043994   0.0001864752
+   15   20   0.051454   0.179458   0.093317   0.0009363534
+   16   17   0.261035   0.536578   0.490511     0.00271107
+   16   18  -0.231194  -0.111649  -0.060681   0.0008596656
+   16   19  -0.349023   0.127416   0.036133    0.002246867
+   16   20  -0.453682  -0.664636  -0.444135     0.01480707
+   17   18  -0.364539  -0.150989  -0.052884    0.001237433
+   17   19  -0.155072  -0.131529  -0.015629   0.0004815994
+   17   20  -1.068939  -0.280607  -0.139716     0.01611056
+   18   19  -0.024909  -1.145952   0.013165    0.004955511
+   18   20   0.010893  -0.706482   0.035216    0.002589992
+   19   20  -2.120897  -0.233257   0.138604    0.006417676
+ --------------------------------------------------------------------------------
+
+ Within RPA/TDDFT Excited States:
+
+    Electron Dipole Moments of Singlet Excited State
+ -----------------------------------------------------
+   State     X           Y           Z(a.u.) 
+ -----------------------------------------------------
+       1   190.158967  -111.723615  18407.529490
+       2   190.576507  -111.103931  18407.965383
+       3   183.159543  -113.898416  18405.503814
+       4   182.689235  -113.858071  18405.519008
+       5   184.460390  -114.014075  18405.615563
+       6   186.476332  -113.416830  18405.734747
+       7   188.144277  -113.484839  18405.832025
+       8   188.843415  -113.563661  18405.634122
+       9   189.635577  -113.482378  18406.212187
+      10   189.448842  -113.819018  18405.630564
+      11   187.537561  -113.153328  18406.097116
+      12   189.452007  -114.181468  18405.333076
+      13   191.809664  -111.195189  18407.900412
+      14   190.500022  -112.115058  18407.203774
+      15   190.423756  -112.512327  18407.324177
+      16   190.506011  -112.034902  18407.617872
+      17   191.996596  -111.980471  18406.980656
+      18   183.717871  -112.903374  18405.979650
+      19   188.062116  -113.365484  18405.821069
+      20   185.483924  -113.646919  18406.032733
+ -----------------------------------------------------
+
+                Transition Moments Between Ground and Singlet Excited States
+ --------------------------------------------------------------------------------
+    States   X          Y          Z           Strength(a.u.)
+ --------------------------------------------------------------------------------
+    0    1  -0.213706   0.063194   0.001998    0.003115069
+    0    2  -0.128865  -0.180356  -0.170878    0.005427464
+    0    3  -0.024940   0.012187   0.014363   8.015066E-05
+    0    4  -0.320152  -0.014430  -0.027029    0.008838006
+    0    5   0.003135  -0.012836   0.025992     7.3032E-05
+    0    6   0.040776  -0.002897   0.027840   0.0002138297
+    0    7   0.011774   0.006386   0.036068   0.0001425739
+    0    8   0.762100  -0.349324  -0.047180     0.07204658
+    0    9   0.292936   0.500103   0.482183     0.07390948
+    0   10   0.152611  -0.145116   0.043259    0.006191345
+    0   11  -0.645383   0.061581  -0.204241     0.06564278
+    0   12   0.072284   0.217343   0.261674     0.01748513
+    0   13   0.652719   0.559408   0.204027      0.1151175
+    0   14  -0.604878  -0.957027  -0.263899      0.2016503
+    0   15   0.569136   0.644461   0.226729      0.1228224
+    0   16  -0.586366  -0.513680  -0.165786      0.1005075
+    0   17   0.648664   0.107620   0.051693     0.07161063
+    0   18  -0.011949   0.014883  -0.005755   6.899835E-05
+    0   19   0.140273  -0.182351  -0.299865     0.02523942
+    0   20  -0.143735   0.139406   0.240629     0.01744177
+ --------------------------------------------------------------------------------
+
+                Transition Moments Between Singlet Excited States
+ --------------------------------------------------------------------------------
+    States   X          Y          Z           Strength(a.u.)
+ --------------------------------------------------------------------------------
+    1    2   0.092279  -0.008177   0.009350   5.694225E-05
+    1    3   0.189243   0.129116   0.035437    0.001038974
+    1    4  -0.086442   0.006416  -0.120795   0.0005023423
+    1    5  -0.440733  -0.130720  -0.097473    0.005119873
+    1    6  -0.206710  -0.090147  -0.048217    0.001313457
+    1    7   0.049287  -0.078388  -0.016575   0.0002972585
+    1    8   0.887804   1.197435   1.072837      0.1331269
+    1    9  -0.536104   0.721150   0.233865     0.05803081
+    1   10   0.431197  -0.410418   0.040214     0.02535887
+    1   11   0.059512   0.420456   0.181308     0.01691882
+    1   12   0.071758  -0.175672  -0.158010    0.004991749
+    1   13  -0.161021  -0.461817  -0.235653     0.02497984
+    1   14   0.508281   0.832417   0.534629      0.1070028
+    1   15   0.950487   0.919835   0.775897      0.2178102
+    1   16  -0.162454  -0.302202  -0.228319     0.01622318
+    1   17  -0.265653   0.083765  -0.004265    0.007907792
+    1   18  -0.011559   0.006417  -0.005720   2.301302E-05
+    1   19  -0.452179   0.204059   0.040700      0.0282373
+    1   20   0.215465  -0.063986   0.010918    0.005836896
+    2    3  -0.375678  -0.231724  -0.120842     0.00267352
+    2    4  -0.234940  -0.095444  -0.064951      0.0011072
+    2    5   0.498240   0.236520   0.186190    0.005630464
+    2    6   0.230025   0.152448   0.107001     0.00158822
+    2    7  -0.052760   0.063834   0.003470   0.0001856802
+    2    8  -0.027861  -0.069741  -0.032809   0.0002209742
+    2    9   0.107987   0.193906   0.205096    0.005547172
+    2   10   0.051487   0.012099   0.177770    0.002224502
+    2   11  -0.088951  -0.021850  -0.019013   0.0006369952
+    2   12  -0.012118   0.043040   0.214386    0.003611178
+    2   13  -0.227514   1.046979   0.353007     0.09949427
+    2   14  -0.357191   0.524412   0.202032     0.03544059
+    2   15   0.468759   0.242545   0.230648     0.02855034
+    2   16   1.064753   0.891784   0.791407      0.2272907
+    2   17  -0.037357  -0.112811  -0.014726     0.00136688
+    2   18   0.018215  -0.010533  -0.004154    4.79941E-05
+    2   19   0.183374   0.075928  -0.140695    0.006356648
+    2   20  -0.061354  -0.073383   0.066975    0.001482095
+    3    4  -0.127494  -0.171325   0.040987   0.0001603986
+    3    5   0.678395   0.904505  -0.014951    0.004923475
+    3    6  -1.131644   1.010675  -0.023563     0.01235279
+    3    7   0.297058   0.227318   0.020195    0.002001063
+    3    8  -0.206013  -0.101510   0.039622    0.001093619
+    3    9  -0.016274   0.058528  -0.020792   0.0001977886
+    3   10   0.148586   0.142100  -0.022137    0.002219306
+    3   11   0.006560   0.097522  -0.001243   0.0005735409
+    3   12   0.162857  -0.446694  -0.005695      0.0141373
+    3   13  -0.067049  -0.022132  -0.027170    0.000374436
+    3   14   0.109127  -0.018128   0.010597   0.0008294193
+    3   15  -0.075479   0.017039   0.003369   0.0004396563
+    3   16   0.037932  -0.026951  -0.027744    0.000223589
+    3   17  -0.053180  -0.057321  -0.002805   0.0005054239
+    3   18   0.439064  -0.545528   0.042638     0.04507184
+    3   19   0.435437   0.129628   0.001714     0.01953397
+    3   20  -0.102099  -0.093671  -0.024636    0.001899973
+    4    5  -0.427408  -0.033750  -0.021740   8.453958E-05
+    4    6   0.388483   0.001083   0.036356   0.0003003124
+    4    7  -0.097008  -0.065211   0.005349   0.0001488031
+    4    8  -0.627581  -0.222265   0.007933    0.007422379
+    4    9  -0.352035   0.070961  -0.056914    0.005894058
+    4   10   0.311449  -0.105896   0.022901    0.005274835
+    4   11  -0.441225   0.582983   0.080363     0.03063838
+    4   12  -0.102557   0.092153   0.013741     0.00113538
+    4   13  -0.026961   0.308861   0.035106    0.006038691
+    4   14   0.187022  -0.475720  -0.027403     0.01671004
+    4   15  -0.041881   0.189246   0.014671     0.00264103
+    4   16   0.014992  -0.175540  -0.024736    0.002303904
+    4   17   0.223573  -0.128784  -0.039587    0.005394519
+    4   18   0.117978   0.055092  -0.005631    0.001497795
+    4   19   0.079573   0.202568   0.045911    0.004514156
+    4   20   0.063623  -0.188297  -0.019752    0.003691787
+    5    6  -1.950314  -0.309300  -0.148421    0.005936488
+    5    7   0.486614   0.359724  -0.032145    0.003822646
+    5    8   0.210633  -0.047303  -0.095150   0.0009063194
+    5    9  -0.040227   0.028191   0.043403   0.0001895949
+    5   10  -0.392609  -0.009265   0.013805    0.007419857
+    5   11  -0.199829   0.084692  -0.001535    0.002646148
+    5   12   0.522475   0.144631   0.015102     0.01725891
+    5   13  -0.014317   0.095284   0.048874   0.0007186798
+    5   14  -0.077425  -0.129416  -0.051461    0.001607551
+    5   15   0.040844   0.039738   0.008872   0.0002309613
+    5   16  -0.042478  -0.007936   0.019374   0.0001622177
+    5   17   0.055579   0.149851   0.033044      0.0020966
+    5   18  -0.806408  -0.075648   0.041721     0.05769981
+    5   19  -0.465416   0.012236  -0.014065     0.01969671
+    5   20  -0.511273   0.490733  -0.012881     0.04626025
+    6    7   0.429439  -1.682416  -0.016894     0.02682227
+    6    8   0.144909  -0.029391  -0.052704   0.0003639345
+    6    9   0.002992  -0.017907   0.021246   3.327809E-05
+    6   10  -0.228841   0.085828   0.008883    0.002783531
+    6   11  -0.072693  -0.022822  -0.012381    0.000325683
+    6   12   0.356109  -0.090255   0.002576    0.007715317
+    6   13   0.011504   0.144030   0.051528    0.001413234
+    6   14  -0.044441  -0.015101  -0.021325    0.000164246
+    6   15   0.012422   0.018497   0.004782   3.527333E-05
+    6   16  -0.016946  -0.021615  -0.000416    5.34348E-05
+    6   17   0.052351   0.035152   0.003077   0.0003076917
+    6   18   1.478167   0.007601  -0.024216      0.1884187
+    6   19  -0.083360  -0.102164  -0.021177    0.001592144
+    6   20  -0.099860   0.320286  -0.010111     0.01020312
+    7    8  -0.041186   0.042101   0.007729     2.0728E-05
+    7    9  -0.041081  -0.051100  -0.043079   0.0002075047
+    7   10   0.101249  -0.037756   0.023599   0.0004604912
+    7   11  -0.038713  -0.038589  -0.028193   0.0001731096
+    7   12  -0.052250   0.094159   0.015337   0.0005710823
+    7   13   0.123332   0.092224   0.073412    0.001489018
+    7   14   0.002267   0.014414  -0.002256   1.153203E-05
+    7   15   0.022226  -0.005148   0.020140   5.467058E-05
+    7   16  -0.036152  -0.015870  -0.032014   0.0001599919
+    7   17   0.052733  -0.075445  -0.032772   0.0006520692
+    7   18  -0.327831   0.025413   0.010873    0.008368087
+    7   19   0.702755   0.071504  -0.009669     0.04011314
+    7   20   1.433716   0.107101  -0.039330       0.168943
+    8    9   0.537012  -0.407582  -0.032874     0.01268385
+    8   10  -0.429297   0.511797   0.161002     0.01499874
+    8   11  -0.428642   0.039249  -0.002795    0.007390834
+    8   12  -0.212288   0.126829  -0.020370    0.002610105
+    8   13   0.272470  -0.157687  -0.025240    0.004516856
+    8   14  -0.564758   0.065247  -0.122996       0.015911
+    8   15   0.264895  -0.000585  -0.018962    0.003749085
+    8   16  -0.264343   0.115226   0.043156    0.004765052
+    8   17  -0.578442   0.862943   0.141545     0.06862759
+    8   18   0.065677  -0.043263  -0.004499   0.0004433007
+    8   19   0.688755  -0.212742   0.010310     0.03872196
+    8   20  -0.224127  -0.003832  -0.006565    0.003811904
+    9   10  -0.401215  -0.289352  -0.408769    0.001616636
+    9   11   0.854301   0.421077   0.182039     0.01132918
+    9   12  -0.204289   0.089953   0.101008   0.0008736457
+    9   13  -0.514210  -0.342369  -0.207156    0.007405933
+    9   14   0.634517   0.195517   0.154869    0.008918229
+    9   15  -0.554041  -0.230621  -0.193498     0.01006528
+    9   16   0.384767   0.306479   0.180317    0.007742724
+    9   17   0.518445   1.103554   0.815165     0.07440198
+    9   18  -0.098857  -0.099425  -0.045468   0.0009471709
+    9   19  -0.945501  -0.701210  -0.349279     0.07034834
+    9   20   0.210283   0.372063   0.081965     0.00908148
+   10   11  -0.915480  -0.491486  -0.327410    0.009640779
+   10   12  -0.224486  -0.231120   0.049764    0.001129632
+   10   13   0.528976   0.270642   0.213578    0.005389607
+   10   14  -1.092881  -0.547589  -0.517481     0.02688933
+   10   15   0.672813   0.278306   0.207752     0.01226267
+   10   16  -0.422907  -0.222299  -0.125771    0.005926853
+   10   17  -0.102740  -0.689875  -0.657629     0.02817695
+   10   18   0.022386   0.006480   0.044530   0.0001002108
+   10   19  -0.416113   0.372389   0.036139      0.0133815
+   10   20   0.424120  -0.040993   0.065621    0.008183766
+   11   12  -0.708442  -0.089626  -0.010932    0.001277745
+   11   13  -1.170544  -0.307681  -0.185249    0.008089071
+   11   14   1.832795   0.410234   0.327432     0.02594225
+   11   15  -1.010309  -0.193368  -0.100866     0.01417299
+   11   16   0.521544   0.035717  -0.038194    0.004439556
+   11   17  -0.207402   0.256120   0.524784    0.008655188
+   11   18  -0.063137  -0.019761  -0.039670   0.0001877291
+   11   19  -0.180758   0.256700   0.158107     0.00427683
+   11   20  -0.119732  -0.205606  -0.188795     0.00331261
+   12   13   0.167122   0.293593   0.284724   0.0005642224
+   12   14   0.024836  -0.127720  -0.063675   9.720379E-05
+   12   15   0.030857   0.162614   0.140474   0.0005071844
+   12   16  -0.097225  -0.139060  -0.074321   0.0004685163
+   12   17   0.060428   0.059806  -0.067115    0.000235049
+   12   18   0.158087   0.012172  -0.025571   0.0007491374
+   12   19  -0.208845  -0.822186  -0.079142     0.02330513
+   12   20   0.119641   0.514833   0.089124    0.009596931
+   13   14   1.517501   1.218143   0.895783    0.007993114
+   13   15  -0.193805  -0.422783  -0.317426    0.002495692
+   13   16  -0.785692  -0.014357  -0.084907    0.006724084
+   13   17  -0.111424  -0.659185  -0.536147     0.01258982
+   13   18   0.144058   0.106496   0.058719   0.0009295268
+   13   19   0.088540  -0.262127  -0.215840     0.00359756
+   13   20   0.525600   0.447606   0.359409     0.01848369
+   14   15  -0.697321  -0.095196  -0.048735    0.003050613
+   14   16  -0.447865  -0.408089  -0.369690    0.004544936
+   14   17   0.161739   0.736829   0.571323     0.01379173
+   14   18   0.026502  -0.001415  -0.004488   1.768547E-05
+   14   19   0.155383   0.326167   0.195947    0.004641049
+   14   20   0.044168  -0.226590  -0.114971    0.001913585
+   15   16   0.186030   0.425399   0.314791   0.0009100062
+   15   17  -0.054622  -0.373774  -0.445268    0.003161294
+   15   18   0.028161   0.026768   0.028965   4.293581E-05
+   15   19   0.045371  -0.211011  -0.135883    0.001388435
+   15   20   0.117861   0.166022   0.146755    0.001426189
+   16   17  -0.138564   0.175670   0.220935   0.0006307961
+   16   18  -0.110613  -0.059178  -0.034353   0.0002603529
+   16   19  -0.086215   0.233082   0.135962    0.001480757
+   16   20  -0.342946  -0.245010  -0.218482    0.004450933
+   17   18  -0.390916  -0.170840  -0.062486    0.001674974
+   17   19   0.344416   0.093409   0.110628    0.001685194
+   17   20  -1.052506  -0.406004  -0.215955     0.01763697
+   18   19   0.007872  -0.623288  -0.007016    0.001190289
+   18   20  -0.025519  -1.189289   0.035542     0.00617401
+   19   20  -1.973350  -0.315964   0.047636    0.005179734
+ --------------------------------------------------------------------------------
+
+                    END OF TRANSITION MOMENT CALCULATION
+
+ STSman time:  CPU 10.27 s  wall 0.86 s
+
+ 
+ --------------------------------------------------------------
+ 
+                    Orbital Energies (a.u.)
+ --------------------------------------------------------------
+ 
+ Alpha MOs
+ -- Occupied --
+******** -62.8456 -56.6441 -56.6378 -56.6378 -19.4808 -19.4803 -14.8627
+-10.5931 -10.5860 -10.5845 -10.5831 -10.5800 -10.5420  -8.9973  -6.8250
+ -6.8044  -6.8042  -2.9027  -2.8968  -2.8968  -2.8800  -2.8799  -1.5189
+ -1.3459  -1.2335  -1.1473  -1.1224  -1.0450  -1.0147  -0.9571  -0.9108
+ -0.8509  -0.8092  -0.8065  -0.8040  -0.7851  -0.7613  -0.7508  -0.7230
+ -0.6936  -0.6745  -0.6353  -0.6003  -0.5650  -0.5605  -0.5527  -0.5510
+ -0.5502
+ -- Virtual --
+ -0.2940  -0.2082  -0.1489  -0.1268  -0.0349  -0.0094   0.0187   0.0328
+  0.0481   0.0594   0.0751   0.1026   0.1321   0.1500   0.1515   0.1703
+  0.1915   0.2354   0.2602   0.2648   0.2778   0.3515   0.3606   0.3825
+  0.4306   0.4392   0.4579   0.4770   0.4850   0.4963   0.5059   0.5150
+  0.5462   0.5517   0.5920   0.6441   0.6516   0.6973   0.7042   0.7328
+  0.7508   0.7732   0.7907   0.8051   0.8252   0.8454   0.8737   0.8926
+  0.8967   0.9502   0.9578   0.9739   1.0057   1.0175   1.0666   1.0710
+  1.1396   1.2403   1.2929   1.3563   1.4371   1.5913   1.7300   1.7862
+  3.3194   3.7691   3.7706   3.7744   3.7852   3.8537  68.0197
+ --------------------------------------------------------------
+ 
+          Ground-State Mulliken Net Atomic Charges
+
+     Atom                 Charge (a.u.)
+  ----------------------------------------
+      1 C                    -0.140100
+      2 C                    -0.060739
+      3 C                     0.318575
+      4 C                     0.001075
+      5 C                     0.008897
+      6 H                     0.283845
+      7 H                     0.320220
+      8 H                     0.322455
+      9 H                     0.294151
+     10 N                     0.101847
+     11 O                    -0.234206
+     12 O                    -0.233842
+     13 C                    -0.652517
+     14 H                     0.348441
+     15 Br                    0.321897
+  ----------------------------------------
+  Sum of atomic charges =     1.000000
+
+ -----------------------------------------------------------------
+                    Cartesian Multipole Moments
+ -----------------------------------------------------------------
+    Charge (ESU x 10^10)
+                 4.8032
+    Dipole Moment (Debye)
+         X      -0.9353      Y      -0.5210      Z     480.4272
+       Tot     480.4284
+    Quadrupole Moments (Debye-Ang)
+        XX     -72.4597     XY       1.0535     YY     -52.8970
+        XZ     -92.6348     YZ     -50.9709     ZZ   47990.1561
+    Octopole Moments (Debye-Ang^2)
+       XXX    -304.9412    XXY      30.2060    XYY     -77.6333
+       YYY      88.9390    XXZ   -7213.2229    XYZ     102.6424
+       YYZ   -5262.6352    XZZ   -9251.0575    YZZ   -4965.5767
+       ZZZ 4787514.3188
+    Hexadecapole Moments (Debye-Ang^3)
+      XXXX   -2299.7797   XXXY     -69.2984   XXYY    -464.8129
+      XYYY     -61.6649   YYYY    -677.5454   XXXZ  -30515.0240
+      XXYZ    2965.3998   XYYZ   -7766.6840   YYYZ    8734.0656
+      XXZZ -718415.2932   XYZZ    9983.4778   YYZZ -523723.3220
+      XZZZ -931587.1079   YZZZ -481724.8152   ZZZZ ************
+ -----------------------------------------------------------------
+
+ Q-Chem fatal error occurred in module qparser/qmplots.C, line 132:
+
+ Input section $plots not found in read_plots
+
+
+ Please submit a crash report at q-chem.com/reporter 
+ 
+ 
