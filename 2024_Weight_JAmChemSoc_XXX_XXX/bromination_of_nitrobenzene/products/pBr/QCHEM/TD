@@ -1,2 +1,0 @@
-slurmstepd: error: task/cgroup: unable to add task[pid=2958] to memory cg '(null)'
-rm: cannot remove ‘/local_scratch/16808488’: Permission denied
